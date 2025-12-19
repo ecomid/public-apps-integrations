@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		N6m/E3W1a5EFDryy0tnjHFZ0gsQ=
+		cZkZx/LluBWkTZeHjPzmjn2/cB0=
 		</data>
 		<key>Headers/EComIDIntegrationsWidgets-Swift.h</key>
 		<data>
-		X1dCNO1NmtTmAbeLJXRH6QUYmOo=
+		uttbOiixvdQCPqu4Bw5SnD0zBsM=
 		</data>
 		<key>Headers/EcomIDIntegrations.h</key>
 		<data>
@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7m0HaE0jiTXh3Rg88ajisdqAghE=
+		JxE0/TL2mKvCdGN9yX4sYuxPrLQ=
 		</data>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		pdaE2ZxWX+ynDVr3q+A4dbSEFzg=
+		UlWAw/GXACsm+tLmz8bVIYhrlMY=
 		</data>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		s3E0YumQfn3IMymKu/nk7vn+Fig=
+		uLd4kUCovYEzbyxLxR5odZq/19E=
 		</data>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		U7oq93xU0AN6rTEZy7mtmnw97AA=
+		qZYzc/4XdhkxH+DRqtE/+1IOZ8I=
 		</data>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		s3E0YumQfn3IMymKu/nk7vn+Fig=
+		uLd4kUCovYEzbyxLxR5odZq/19E=
 		</data>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Iv6o4MFpLP6Ar4/27TkRev8ltGA=
+		TUNlH9tt9yHm/ApC+8ON1aItF08=
 		</data>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		pdaE2ZxWX+ynDVr3q+A4dbSEFzg=
+		UlWAw/GXACsm+tLmz8bVIYhrlMY=
 		</data>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		07ZpQzgpZayb0RQVX3Dmoj61pZ4=
+		bmTzs1gDd8nSBnt79moevnJ70gc=
 		</data>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ccUGMpSSIlG0TXOcif8ADcITk78=
+		IzVugYg83qimWDTp9jGTm/Hr73Q=
 		</data>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		07ZpQzgpZayb0RQVX3Dmoj61pZ4=
+		bmTzs1gDd8nSBnt79moevnJ70gc=
 		</data>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jqTEnzpy4f8hlYEJacFXiWOpbes=
+		CBQQXXhaGNKJQe9t+bBfcQw29lk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -66,17 +66,35 @@
 		</data>
 		<key>README.md</key>
 		<data>
-		EtipxwKSfYQlHcherU+GAR/jxZA=
+		3uH9yDtUdtPB+Yh8nbiAySZRPvI=
 		</data>
-		<key>UIInformativeWidget.nib</key>
+		<key>UIInfoWidget.nib</key>
 		<data>
-		kCwp/HXBHt9QcN0Ltug94n+285o=
+		BaplK7K3AD6XcjD6cN3d2NCZxuU=
 		</data>
+		<key>da.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+w+2XoVwldHsQXdV9gVKjk9cJqM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ucB4LppFjP5BHqoCgQIqgUIUIyQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6d8XAofQGtFNZ53pQa0z37TedRQ=
+			xE5R4aaEK6MtGF0L4PPbUrFlnlo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -85,7 +103,52 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dMAQyYwnsSKh5XWAFkgxvpB7030=
+			S1zLLcsaGMPZpz2+D8DTseZljaY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fi.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1akVD4NojObDaZ4rsSl8QvhfIco=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qFZ77OnagJfIdtJIx9eaE0naCIE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>nb.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Cb+qWgWMDG6Sn7Mv/OMl3cpx3hQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>nl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cVLxjJv9IV7YIgFhRmUYN8/bjMY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>nn.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Cb+qWgWMDG6Sn7Mv/OMl3cpx3hQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -94,7 +157,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NBEW4jp9BVX39DVB4++9eZTWB/Y=
+			+yHQ01CUbxd3FkhOfGlocjjlUYk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -106,14 +169,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nsB99Dh0zGAmLQIgECFXjiIG6uOKlGomgExQdkcHzlU=
+			Lc27pqHL50i4N4HFOVLGcVeDMI4XtIjY95p8cpzurnc=
 			</data>
 		</dict>
 		<key>Headers/EComIDIntegrationsWidgets-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1b8A1Sv+PLuPHv5dNTtmWTHb94tL/Ddz9hQL4QrEWAA=
+			Nxxv2jrqvsEyIwhosG8F5n7QxmILh32X9T7mm0/iqHk=
 			</data>
 		</dict>
 		<key>Headers/EcomIDIntegrations.h</key>
@@ -127,70 +190,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jLkfHvx/w95bsocuXrSOgh32PETYAABJo/cjvD+0eog=
+			M90u0T8Gqsl2IFajC8QNjLzlNAZuis1mDEQdSvDgiqs=
 			</data>
 		</dict>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qHt04RZVULm/gXZeRLZND+EKe9SsKhDQKSWY8Wi1udU=
+			/JFxbnvXfnuKbJAc3SkgNNspuRNo0i7iql3OLO2oxTg=
 			</data>
 		</dict>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X3NwgGC/nyUjIsOYL1mTTEsdzXwl7VUeef4eN7uekSE=
+			qPnd7w0uBbC+41ulZRt1MhEtzlOSWDCaTXl6XE8hRn0=
 			</data>
 		</dict>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qHt04RZVULm/gXZeRLZND+EKe9SsKhDQKSWY8Wi1udU=
+			/JFxbnvXfnuKbJAc3SkgNNspuRNo0i7iql3OLO2oxTg=
 			</data>
 		</dict>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+8dgeU1MJIjHCZqpaKP00JvcaMFn7fhDYWUOeL5Ni80=
+			TcfkSCnn0SiF9cowKC8Wdl8m9YkRIvw8qdP4NDqtIvs=
 			</data>
 		</dict>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jLkfHvx/w95bsocuXrSOgh32PETYAABJo/cjvD+0eog=
+			M90u0T8Gqsl2IFajC8QNjLzlNAZuis1mDEQdSvDgiqs=
 			</data>
 		</dict>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Z1r7WgG4fH2w3OcEsGVdfV6F54XqUetWtBDHUyfjKw=
+			f9QT/x84KL7f3RvPQbkSa0OzIQ5ZlPKvqWTZG3RFI1k=
 			</data>
 		</dict>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pHwlDr9lg0ZnFHu737l6Mx8qLeUWYTBo2LcI2ZqgbvQ=
+			BgbORoshqckgeLRX2sWF02elaWH5BPEYiNIZxirjLiw=
 			</data>
 		</dict>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Z1r7WgG4fH2w3OcEsGVdfV6F54XqUetWtBDHUyfjKw=
+			f9QT/x84KL7f3RvPQbkSa0OzIQ5ZlPKvqWTZG3RFI1k=
 			</data>
 		</dict>
 		<key>Modules/EComIDIntegrationsWidgets.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RlTaQVZfCequqlu23QJbQeGvDhpzeIdJUzSRao8f+MM=
+			fXeYkaO1tZAUHUx1Dv7FnUwzRacIsLq1Y6SN0O/Hlyw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -204,21 +267,39 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9ayuwtz7dxkKf6n4EDhK4zTzEriw5AhTXaJ2qmy0xBU=
+			W9f7KqRlUM4nokAym7PBCYO/1fndEUiWr48HbHjxMrc=
 			</data>
 		</dict>
-		<key>UIInformativeWidget.nib</key>
+		<key>UIInfoWidget.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DSppTJI5ymLQjOu4qJztfCdVEDRQuP4mmUTRebOJ3X4=
+			EtkdEE17Cx0JeaZBkt63JY1hgYAgmA/zVDT11QOSbmI=
 			</data>
+		</dict>
+		<key>da.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4k/ljHzZ9rF6u7x4GQRxzUK30T4tFWq9LHZVEj3WJqs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MTx/8uvn5qomJM8VxZVLIMfRWvodtXLilgXqOtrEe4Q=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			itw/XYH+gTzBxeQmCTmNvu1rTK8V7j5hLfQtVfphv7M=
+			Q+SaCRm0gNTSCz0DovOXMLor2BVpV80NOT9qe9/HQAY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -227,7 +308,52 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RfX2P0H2YcCNZbwyHAbwzHUEObrMr4WyGB0Y35v3SlE=
+			P+kC0d/QzH5zDIrYDPSKugOFd5UtHVn64D/cO+Pt7aU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fi.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jzje/xuDxdHK3QgSkt2OMj98qUpDbRxh0JXag1uH8HE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bF7B1C3E9N2TgattkZAfAfbxLhIaiTmbygjOZuYuEdM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>nb.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u98EnmIr4sw0a/LAhkczPW0m99QMh16hFlJmENXBo6s=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>nl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LihWfkrm11jIM7wmhaH/3HkySrGWD8Vfbxl9SrQh4X0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>nn.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u98EnmIr4sw0a/LAhkczPW0m99QMh16hFlJmENXBo6s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -236,7 +362,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aA3UpKwI5DDR9mDGB4x+Nol+KAeDCyhMSKYUJMCh3F0=
+			oCTNiPVGXTj+RNh6DEKyZ6FvMQ3UQAvNAosTvDuMMJc=
 			</data>
 			<key>optional</key>
 			<true/>

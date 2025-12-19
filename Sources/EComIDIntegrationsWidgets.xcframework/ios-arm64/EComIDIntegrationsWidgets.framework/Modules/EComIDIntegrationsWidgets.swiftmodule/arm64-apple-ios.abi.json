@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "EComIDIntegrationsWidgets",
+    "printedName": "EComIDIntegrationsWidgets",
     "children": [
       {
         "kind": "Import",
@@ -23,6 +23,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "EComIDIntegrationsWidgets",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -40,8 +50,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UIInformativeWidget",
-        "printedName": "UIInformativeWidget",
+        "name": "UIInfoWidget",
+        "printedName": "UIInfoWidget",
         "children": [
           {
             "kind": "Constructor",
@@ -50,9 +60,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UIInformativeWidget",
-                "printedName": "EComIDIntegrationsWidgets.UIInformativeWidget",
-                "usr": "c:@M@EComIDIntegrationsWidgets@objc(cs)UIInformativeWidget"
+                "name": "UIInfoWidget",
+                "printedName": "EComIDIntegrationsWidgets.UIInfoWidget",
+                "usr": "c:@M@EComIDIntegrationsWidgets@objc(cs)UIInfoWidget"
               },
               {
                 "kind": "TypeNominal",
@@ -62,8 +72,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@EComIDIntegrationsWidgets@objc(cs)UIInformativeWidget(im)initWithFrame:",
-            "mangledName": "$s25EComIDIntegrationsWidgets19UIInformativeWidgetC5frameACSo6CGRectV_tcfc",
+            "usr": "c:@M@EComIDIntegrationsWidgets@objc(cs)UIInfoWidget(im)initWithFrame:",
+            "mangledName": "$s25EComIDIntegrationsWidgets12UIInfoWidgetC5frameACSo6CGRectV_tcfc",
             "moduleName": "EComIDIntegrationsWidgets",
             "overriding": true,
             "implicit": true,
@@ -71,6 +81,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -78,10 +89,11 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@EComIDIntegrationsWidgets@objc(cs)UIInformativeWidget",
-        "mangledName": "$s25EComIDIntegrationsWidgets19UIInformativeWidgetC",
+        "usr": "c:@M@EComIDIntegrationsWidgets@objc(cs)UIInfoWidget",
+        "mangledName": "$s25EComIDIntegrationsWidgets12UIInfoWidgetC",
         "moduleName": "EComIDIntegrationsWidgets",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "Final",
@@ -96,6 +108,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -240,7 +266,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(regularFont:semiBoldFont:)",
+            "printedName": "init(regularFont:semiBoldFont:backgroundColor:showBorder:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -277,11 +303,33 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:25EComIDIntegrationsWidgets23UIKitStyleConfigurationV11regularFont08semiBoldH0ACSSSg_AFtcfc",
-            "mangledName": "$s25EComIDIntegrationsWidgets23UIKitStyleConfigurationV11regularFont08semiBoldH0ACSSSg_AFtcfc",
+            "usr": "s:25EComIDIntegrationsWidgets23UIKitStyleConfigurationV11regularFont08semiBoldH015backgroundColor10showBorderACSSSg_AHSo7UIColorCSgSbtcfc",
+            "mangledName": "$s25EComIDIntegrationsWidgets23UIKitStyleConfigurationV11regularFont08semiBoldH015backgroundColor10showBorderACSSSg_AHSo7UIColorCSgSbtcfc",
             "moduleName": "EComIDIntegrationsWidgets",
             "declAttributes": [
               "AccessControl"
@@ -295,6 +343,22 @@
         "moduleName": "EComIDIntegrationsWidgets",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -316,19 +380,19 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UIInformativeWidgetViewModel",
-        "printedName": "UIInformativeWidgetViewModel",
+        "name": "UIInfoWidgetViewModel",
+        "printedName": "UIInfoWidgetViewModel",
         "children": [
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(name:brand:locale:styleConfiguration:)",
+            "printedName": "init(name:locale:styleConfiguration:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UIInformativeWidgetViewModel",
-                "printedName": "EComIDIntegrationsWidgets.UIInformativeWidgetViewModel",
-                "usr": "s:25EComIDIntegrationsWidgets28UIInformativeWidgetViewModelC"
+                "name": "UIInfoWidgetViewModel",
+                "printedName": "EComIDIntegrationsWidgets.UIInfoWidgetViewModel",
+                "usr": "s:25EComIDIntegrationsWidgets21UIInfoWidgetViewModelC"
               },
               {
                 "kind": "TypeNominal",
@@ -353,20 +417,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "UIKitStyleConfiguration",
                 "printedName": "EComIDIntegrationsWidgets.UIKitStyleConfiguration",
                 "usr": "s:25EComIDIntegrationsWidgets23UIKitStyleConfigurationV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:25EComIDIntegrationsWidgets28UIInformativeWidgetViewModelC4name5brand6locale18styleConfigurationACSSSg_S2SAA010UIKitStyleL0Vtcfc",
-            "mangledName": "$s25EComIDIntegrationsWidgets28UIInformativeWidgetViewModelC4name5brand6locale18styleConfigurationACSSSg_S2SAA010UIKitStyleL0Vtcfc",
+            "usr": "s:25EComIDIntegrationsWidgets21UIInfoWidgetViewModelC4name6locale18styleConfigurationACSSSg_SSAA010UIKitStyleK0Vtcfc",
+            "mangledName": "$s25EComIDIntegrationsWidgets21UIInfoWidgetViewModelC4name6locale18styleConfigurationACSSSg_SSAA010UIKitStyleK0Vtcfc",
             "moduleName": "EComIDIntegrationsWidgets",
             "declAttributes": [
               "AccessControl",
@@ -376,14 +434,28 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:25EComIDIntegrationsWidgets28UIInformativeWidgetViewModelC",
-        "mangledName": "$s25EComIDIntegrationsWidgets28UIInformativeWidgetViewModelC",
+        "usr": "s:25EComIDIntegrationsWidgets21UIInfoWidgetViewModelC",
+        "mangledName": "$s25EComIDIntegrationsWidgets21UIInfoWidgetViewModelC",
         "moduleName": "EComIDIntegrationsWidgets",
         "declAttributes": [
           "AccessControl",
           "Final"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "ObservableObject",
@@ -444,13 +516,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "InformativeWidgetBuilder",
-        "printedName": "InformativeWidgetBuilder",
+        "name": "InfoWidgetBuilder",
+        "printedName": "InfoWidgetBuilder",
         "children": [
           {
             "kind": "Function",
-            "name": "buildUIKitInformativeWidgetView",
-            "printedName": "buildUIKitInformativeWidgetView(brand:locale:regularFont:semiBoldFont:)",
+            "name": "buildUIKitInfoWidgetView",
+            "printedName": "buildUIKitInfoWidgetView(locale:regularFont:semiBoldFont:backgroundColor:showBorder:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -466,12 +538,6 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "Swift.String?",
                 "children": [
@@ -499,11 +565,33 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:25EComIDIntegrationsWidgets24InformativeWidgetBuilderO010buildUIKitdE4View5brand6locale11regularFont08semiBoldM0So6UIViewCSS_S2SSgAKtFZ",
-            "mangledName": "$s25EComIDIntegrationsWidgets24InformativeWidgetBuilderO010buildUIKitdE4View5brand6locale11regularFont08semiBoldM0So6UIViewCSS_S2SSgAKtFZ",
+            "usr": "s:25EComIDIntegrationsWidgets17InfoWidgetBuilderO010buildUIKitdE4View6locale11regularFont08semiBoldL015backgroundColor10showBorderSo6UIViewCSS_SSSgALSo7UIColorCSgSbtFZ",
+            "mangledName": "$s25EComIDIntegrationsWidgets17InfoWidgetBuilderO010buildUIKitdE4View6locale11regularFont08semiBoldL015backgroundColor10showBorderSo6UIViewCSS_SSSgALSo7UIColorCSgSbtFZ",
             "moduleName": "EComIDIntegrationsWidgets",
             "static": true,
             "declAttributes": [
@@ -514,20 +602,21 @@
           },
           {
             "kind": "Function",
-            "name": "buildSwiftUIInformativeWidgetView",
-            "printedName": "buildSwiftUIInformativeWidgetView(brand:locale:regularFont:semiBoldFont:)",
+            "name": "buildSwiftUIInfoWidgetView",
+            "printedName": "buildSwiftUIInfoWidgetView(locale:regularFont:semiBoldFont:backgroundColor:showBorder:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "InformativeWidgetView",
-                "printedName": "EComIDIntegrationsWidgets.InformativeWidgetView",
-                "usr": "s:25EComIDIntegrationsWidgets21InformativeWidgetViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
               },
               {
                 "kind": "TypeNominal",
@@ -564,11 +653,33 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:25EComIDIntegrationsWidgets24InformativeWidgetBuilderO023buildSwiftUIInformativeE4View5brand6locale11regularFont08semiBoldN0QrSS_S2SSgAItFZ",
-            "mangledName": "$s25EComIDIntegrationsWidgets24InformativeWidgetBuilderO023buildSwiftUIInformativeE4View5brand6locale11regularFont08semiBoldN0QrSS_S2SSgAItFZ",
+            "usr": "s:25EComIDIntegrationsWidgets17InfoWidgetBuilderO016buildSwiftUIInfoE4View6locale11regularFont08semiBoldM015backgroundColor10showBorderQrSS_SSSgAJ0H2UI0Q0VSgSbtFZ",
+            "mangledName": "$s25EComIDIntegrationsWidgets17InfoWidgetBuilderO016buildSwiftUIInfoE4View6locale11regularFont08semiBoldM015backgroundColor10showBorderQrSS_SSSgAJ0H2UI0Q0VSgSbtFZ",
             "moduleName": "EComIDIntegrationsWidgets",
             "static": true,
             "declAttributes": [
@@ -580,11 +691,37 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "s:25EComIDIntegrationsWidgets24InformativeWidgetBuilderO",
-        "mangledName": "$s25EComIDIntegrationsWidgets24InformativeWidgetBuilderO",
+        "usr": "s:25EComIDIntegrationsWidgets17InfoWidgetBuilderO",
+        "mangledName": "$s25EComIDIntegrationsWidgets17InfoWidgetBuilderO",
         "moduleName": "EComIDIntegrationsWidgets",
         "declAttributes": [
           "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "EComIDIntegrationsWidgets",
+        "declAttributes": [
           "RawDocComment"
         ]
       },
@@ -764,6 +901,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -789,6 +940,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -895,6 +1053,22 @@
         "moduleName": "EComIDIntegrationsWidgets",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -992,6 +1166,53 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "medium",
+            "printedName": "medium",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EComIDFont",
+                "printedName": "EComIDIntegrationsWidgets.EComIDFont",
+                "usr": "s:25EComIDIntegrationsWidgets0A6IDFontV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25EComIDIntegrationsWidgets0A6IDFontV6mediumACvpZ",
+            "mangledName": "$s25EComIDIntegrationsWidgets0A6IDFontV6mediumACvpZ",
+            "moduleName": "EComIDIntegrationsWidgets",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EComIDFont",
+                    "printedName": "EComIDIntegrationsWidgets.EComIDFont",
+                    "usr": "s:25EComIDIntegrationsWidgets0A6IDFontV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25EComIDIntegrationsWidgets0A6IDFontV6mediumACvgZ",
+                "mangledName": "$s25EComIDIntegrationsWidgets0A6IDFontV6mediumACvgZ",
+                "moduleName": "EComIDIntegrationsWidgets",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -1000,6 +1221,22 @@
         "moduleName": "EComIDIntegrationsWidgets",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1142,7 +1379,23 @@
               "AccessControl",
               "RawDocComment"
             ],
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "TypeDecl",
@@ -1233,19 +1486,39 @@
             "declAttributes": [
               "AccessControl"
             ],
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
         "usr": "s:7SwiftUI4FontV",
         "mangledName": "$s7SwiftUI4FontV",
-        "moduleName": "SwiftUI",
+        "moduleName": "SwiftUICore",
         "intro_Macosx": "10.15",
         "intro_iOS": "13.0",
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
           "Frozen",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
           "Available",
           "Available",
           "Available",
@@ -1273,6 +1546,27 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1330,7 +1624,23 @@
               "AccessControl",
               "RawDocComment"
             ],
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "TypeDecl",
@@ -1380,7 +1690,23 @@
             "declAttributes": [
               "AccessControl"
             ],
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -1410,6 +1736,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1459,6 +1799,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       }
@@ -1467,1047 +1814,459 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "StringLiteral",
-      "offset": 325,
-      "length": 21,
-      "value": "\"UIInformativeWidget\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "StringLiteral",
-      "offset": 938,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Models\/SwiftUIStyleConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1253,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1331,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "StringLiteral",
-      "offset": 1439,
-      "length": 31,
-      "value": "\"com.ecomid.EcomIDIntegrations\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1673,
+      "offset": 480,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1881,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1975,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2059,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2149,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2530,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2965,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3119,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/UIKit\/Widgets\/UIInfoWidget.swift",
       "kind": "StringLiteral",
-      "offset": 3476,
-      "length": 13,
-      "value": "\"Powered by \""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3618,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3675,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "StringLiteral",
-      "offset": 3784,
-      "length": 8,
-      "value": "\"eComID\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "StringLiteral",
-      "offset": 3899,
+      "offset": 311,
       "length": 14,
-      "value": "\"Saans-Medium\""
+      "value": "\"UIInfoWidget\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/InfoWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3921,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3964,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4019,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidget.swift",
-      "kind": "StringLiteral",
-      "offset": 229,
-      "length": 19,
-      "value": "\"EComIDIntegrationsWidgets.UIInformativeWidget\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 469,
+      "offset": 433,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetViewModel.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/InfoWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 533,
+      "offset": 497,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetViewModel.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/InfoWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 707,
+      "offset": 670,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetViewModel.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/InfoWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 768,
+      "offset": 731,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1587,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1744,
-      "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1907,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2089,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2153,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/API\/Response\/UserDetails.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/API\/Response\/UserDetails.swift",
       "kind": "StringLiteral",
       "offset": 318,
       "length": 18,
       "value": "\"item_return_rate\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/API\/Response\/UserDetails.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/API\/Response\/UserDetails.swift",
       "kind": "StringLiteral",
       "offset": 369,
       "length": 24,
       "value": "\"item_return_percentile\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/API\/Response\/UserDetails.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/API\/Response\/UserDetails.swift",
       "kind": "StringLiteral",
       "offset": 425,
       "length": 19,
       "value": "\"return_rate_trend\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/API\/Response\/UserDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 318,
-      "length": 18,
-      "value": "\"item_return_rate\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/API\/Response\/UserDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 369,
-      "length": 24,
-      "value": "\"item_return_percentile\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/API\/Response\/UserDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 425,
-      "length": 19,
-      "value": "\"return_rate_trend\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/API\/Response\/UserDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 511,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Colors.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 165,
       "length": 12,
       "value": "\"Background\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Colors.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 211,
       "length": 31,
       "value": "\"com.ecomid.EcomIDIntegrations\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Colors.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 332,
       "length": 19,
       "value": "\"OverlayBackground\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Colors.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 385,
       "length": 31,
       "value": "\"com.ecomid.EcomIDIntegrations\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Colors.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 501,
       "length": 18,
       "value": "\"DefaultFontColor\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Colors.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 553,
       "length": 31,
       "value": "\"com.ecomid.EcomIDIntegrations\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Colors.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 701,
       "length": 12,
       "value": "\"Background\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Colors.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 743,
       "length": 31,
       "value": "\"com.ecomid.EcomIDIntegrations\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Colors.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 890,
       "length": 18,
       "value": "\"DefaultFontColor\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Colors.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 938,
       "length": 31,
       "value": "\"com.ecomid.EcomIDIntegrations\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Colors.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1090,
       "length": 19,
       "value": "\"OverlayBackground\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Colors.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 1139,
       "length": 31,
       "value": "\"com.ecomid.EcomIDIntegrations\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetView.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/InfoWidgetView.swift",
       "kind": "BooleanLiteral",
-      "offset": 250,
+      "offset": 245,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 441,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetView.swift",
-      "kind": "StringLiteral",
-      "offset": 1569,
-      "length": 13,
-      "value": "\"Powered by \""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetView.swift",
-      "kind": "StringLiteral",
-      "offset": 1615,
-      "length": 8,
-      "value": "\"eComID\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1752,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1866,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2513,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetView.swift",
-      "kind": "StringLiteral",
-      "offset": 2578,
-      "length": 21,
-      "value": "\"HMSansLatin-Regular\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetView.swift",
-      "kind": "StringLiteral",
-      "offset": 2663,
-      "length": 22,
-      "value": "\"HMSansLatin-SemiBold\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetView.swift",
-      "kind": "StringLiteral",
-      "offset": 2740,
-      "length": 4,
-      "value": "\"hm\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/Widgets\/InformativeWidgetView.swift",
-      "kind": "StringLiteral",
-      "offset": 2796,
-      "length": 4,
-      "value": "\"en\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 464,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 536,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 741,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 813,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidgetViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 941,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2137,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2294,
-      "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2457,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2639,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidgetViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2703,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3518,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3960,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4298,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/UIKit\/Widgets\/UIInformativeWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4631,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Models\/UIKitStyleConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 335,
+      "offset": 472,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/UIKit\/Widgets\/UIInfoWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 428,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/UIKit\/Widgets\/UIInfoWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 500,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/UIKit\/Widgets\/UIInfoWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 705,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/UIKit\/Widgets\/UIInfoWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 776,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/UIKit\/Widgets\/UIInfoWidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 405,
+      "offset": 904,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 308,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
       "length": 43,
       "value": "\"https:\/\/widgets.ecomid.com\/users\/details\/\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 485,
-      "length": 58,
-      "value": "\"https:\/\/modules.ecomid.com\/html\/overlays\/info\/index.html\""
+      "offset": 458,
+      "length": 47,
+      "value": "\"https:\/\/modules.ecomid.com\/html\/overlays\/info\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Builders\/InfoWidgetBuilder.swift",
       "kind": "BooleanLiteral",
-      "offset": 980,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1069,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1218,
+      "offset": 1089,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Builders\/InfoWidgetBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2306,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Padding.swift",
       "kind": "IntegerLiteral",
-      "offset": 1264,
+      "offset": 195,
       "length": 1,
-      "value": "0"
+      "value": "8"
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1746,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1778,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Padding.swift",
       "kind": "IntegerLiteral",
-      "offset": 2030,
-      "length": 3,
-      "value": "-32"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2041,
-      "length": 3,
-      "value": "-32"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2054,
-      "length": 3,
-      "value": "-32"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2066,
-      "length": 3,
-      "value": "-32"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2275,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2428,
+      "offset": 225,
       "length": 2,
-      "value": "48"
+      "value": "12"
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Padding.swift",
       "kind": "IntegerLiteral",
-      "offset": 2500,
+      "offset": 256,
       "length": 2,
-      "value": "48"
+      "value": "16"
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Padding.swift",
       "kind": "IntegerLiteral",
-      "offset": 2592,
+      "offset": 288,
       "length": 2,
-      "value": "10"
+      "value": "21"
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2688,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2852,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 3240,
-      "length": 6,
-      "value": "\"name\""
+      "offset": 271,
+      "length": 26,
+      "value": "\"info-widget-title-number\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 3297,
-      "length": 7,
-      "value": "\"brand\""
+      "offset": 335,
+      "length": 19,
+      "value": "\"info-widget-title\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 3356,
-      "length": 7,
-      "value": "\"token\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3411,
-      "length": 6,
-      "value": "\"lang\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3589,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
-      "kind": "StringLiteral",
-      "offset": 267,
+      "offset": 395,
       "length": 28,
       "value": "\"widget-title-generic-first\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 336,
+      "offset": 464,
       "length": 29,
       "value": "\"widget-title-generic-number\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 404,
+      "offset": 532,
       "length": 27,
       "value": "\"widget-title-generic-last\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 464,
+      "offset": 592,
       "length": 20,
       "value": "\"widget-title-start\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 525,
+      "offset": 653,
       "length": 30,
       "value": "\"widget-title-return-rate-low\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 599,
+      "offset": 727,
       "length": 33,
       "value": "\"widget-title-return-rate-medium\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 674,
+      "offset": 802,
       "length": 31,
       "value": "\"widget-title-return-rate-high\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 736,
+      "offset": 864,
       "length": 18,
       "value": "\"widget-title-end\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 785,
+      "offset": 913,
       "length": 18,
       "value": "\"widget-read-more\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 830,
+      "offset": 958,
       "length": 13,
       "value": "\"widget-link\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 878,
+      "offset": 1006,
       "length": 23,
       "value": "\"webview-overlay-title\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 961,
+      "offset": 1089,
       "length": 15,
       "value": "\"overlay-title\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 1014,
+      "offset": 1142,
       "length": 18,
       "value": "\"overlay-subtitle\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 1075,
+      "offset": 1203,
       "length": 25,
       "value": "\"overlay-keep-both-sizes\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 1145,
+      "offset": 1273,
       "length": 26,
       "value": "\"overlay-recommended-size\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
-      "kind": "StringLiteral",
-      "offset": 1403,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
-      "kind": "StringLiteral",
-      "offset": 1488,
-      "length": 13,
-      "value": "\"Localizable\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
-      "kind": "StringLiteral",
-      "offset": 1654,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
-      "kind": "StringLiteral",
-      "offset": 1745,
-      "length": 13,
-      "value": "\"Localizable\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
-      "kind": "StringLiteral",
-      "offset": 1918,
-      "length": 31,
-      "value": "\"com.ecomid.EcomIDIntegrations\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Utils\/Localization.swift",
-      "kind": "StringLiteral",
-      "offset": 2024,
-      "length": 7,
-      "value": "\"lproj\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Fonts.swift",
-      "kind": "StringLiteral",
-      "offset": 289,
-      "length": 31,
-      "value": "\"com.ecomid.EcomIDIntegrations\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Fonts.swift",
-      "kind": "StringLiteral",
-      "offset": 363,
-      "length": 15,
-      "value": "\"Fonts\/\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Fonts.swift",
-      "kind": "StringLiteral",
-      "offset": 377,
-      "length": 19,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Fonts.swift",
-      "kind": "StringLiteral",
-      "offset": 786,
-      "length": 21,
-      "value": "\"HMSansLatin-Regular\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Fonts.swift",
-      "kind": "StringLiteral",
-      "offset": 845,
-      "length": 22,
-      "value": "\"HMSansLatin-SemiBold\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Fonts.swift",
-      "kind": "StringLiteral",
-      "offset": 962,
-      "length": 36,
-      "value": "\"Failed to register font: \""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Fonts.swift",
-      "kind": "StringLiteral",
-      "offset": 997,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Fonts.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Fonts.swift",
       "kind": "StringLiteral",
       "offset": 1063,
       "length": 21,
       "value": "\"HMSansLatin-Regular\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Fonts.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Fonts.swift",
       "kind": "StringLiteral",
-      "offset": 1258,
+      "offset": 1462,
       "length": 15,
       "value": "\"Saans-Regular\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Fonts.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Fonts.swift",
       "kind": "StringLiteral",
-      "offset": 1311,
+      "offset": 1528,
       "length": 14,
       "value": "\"Saans-Medium\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Fonts.swift",
-      "kind": "StringLiteral",
-      "offset": 1420,
-      "length": 36,
-      "value": "\"Failed to register font: \""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Fonts.swift",
-      "kind": "StringLiteral",
-      "offset": 1455,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/Resources\/Fonts.swift",
-      "kind": "StringLiteral",
-      "offset": 1525,
-      "length": 15,
-      "value": "\"Saans-Regular\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/WebView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 526,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/WebView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 739,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/WebView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1342,
-      "length": 2,
-      "value": "48"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/WebView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1354,
-      "length": 2,
-      "value": "48"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/WebView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1398,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/WebView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1436,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/WebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2284,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/WebView.swift",
-      "kind": "StringLiteral",
-      "offset": 2317,
-      "length": 4,
-      "value": "\"hm\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Repositories\/eComID\/EComIDIntegrations\/SwiftUI\/WebView.swift",
-      "kind": "StringLiteral",
-      "offset": 2343,
-      "length": 4,
-      "value": "\"en\""
-    },
-    {
-      "filePath": "\/Users\/patrickrengifo\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-ciuomjyfgxymvteghimpdfupxbij\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDIntegrationsWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphoneos\/EComIDIntegrationsWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/patrick\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-deekhfmzygssvpagbfgexturikpo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDIntegrationsWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphoneos\/EComIDIntegrationsWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 628,
       "length": 12,
       "value": "\"Background\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-ciuomjyfgxymvteghimpdfupxbij\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDIntegrationsWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphoneos\/EComIDIntegrationsWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/patrick\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-deekhfmzygssvpagbfgexturikpo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDIntegrationsWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphoneos\/EComIDIntegrationsWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 777,
       "length": 18,
       "value": "\"DefaultFontColor\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-ciuomjyfgxymvteghimpdfupxbij\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDIntegrationsWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphoneos\/EComIDIntegrationsWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/patrick\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-deekhfmzygssvpagbfgexturikpo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDIntegrationsWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphoneos\/EComIDIntegrationsWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 939,
       "length": 19,
       "value": "\"OverlayBackground\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-ciuomjyfgxymvteghimpdfupxbij\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDIntegrationsWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphoneos\/EComIDIntegrationsWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/patrick\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-deekhfmzygssvpagbfgexturikpo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDIntegrationsWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphoneos\/EComIDIntegrationsWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1089,
       "length": 15,
       "value": "\"RecoFontColor\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-ciuomjyfgxymvteghimpdfupxbij\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDIntegrationsWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphoneos\/EComIDIntegrationsWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/patrick\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-deekhfmzygssvpagbfgexturikpo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDIntegrationsWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphoneos\/EComIDIntegrationsWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1329,
       "length": 7,
       "value": "\"close\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-ciuomjyfgxymvteghimpdfupxbij\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDIntegrationsWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphoneos\/EComIDIntegrationsWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/patrick\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-deekhfmzygssvpagbfgexturikpo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDIntegrationsWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphoneos\/EComIDIntegrationsWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1468,
       "length": 13,
       "value": "\"demoProduct\""
     },
     {
-      "filePath": "\/Users\/patrickrengifo\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-ciuomjyfgxymvteghimpdfupxbij\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDIntegrationsWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphoneos\/EComIDIntegrationsWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/patrick\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-deekhfmzygssvpagbfgexturikpo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDIntegrationsWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphoneos\/EComIDIntegrationsWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1599,
       "length": 6,
       "value": "\"logo\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-deekhfmzygssvpagbfgexturikpo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDIntegrationsWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphoneos\/EComIDIntegrationsWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1733,
+      "length": 11,
+      "value": "\"poweredBy\""
     }
   ]
 }
