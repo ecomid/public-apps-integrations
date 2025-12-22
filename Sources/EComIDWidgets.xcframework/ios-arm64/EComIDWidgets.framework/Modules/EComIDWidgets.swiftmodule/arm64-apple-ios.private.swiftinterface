@@ -1,0 +1,89 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name EComIDWidgets
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import Combine
+import DeveloperToolsSupport
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class UIInfoWidget : UIKit.UIView {
+  @objc deinit
+}
+public struct UIKitStyleConfiguration {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(regularFont: Swift.String? = nil, semiBoldFont: Swift.String? = nil, backgroundColor: UIKit.UIColor? = nil, showBorder: Swift.Bool = false)
+  #endif
+}
+final public class UIInfoWidgetViewModel : Combine.ObservableObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(name: Swift.String? = nil, locale: Swift.String, styleConfiguration: EComIDWidgets.UIKitStyleConfiguration)
+  #endif
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+
+public struct InfoWidgetStyle {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(regularFont: Swift.String? = nil, semiBoldFont: Swift.String? = nil, backgroundColor: SwiftUICore.Color? = nil, showBorder: Swift.Bool = false)
+  #endif
+}
+public enum InfoWidgetBuilder {
+  public static func buildUIKitInfoWidgetView(locale: Swift.String, style: EComIDWidgets.InfoWidgetStyle) -> UIKit.UIView
+  public static func buildSwiftUIInfoWidgetView(locale: Swift.String, style: EComIDWidgets.InfoWidgetStyle) -> some SwiftUICore.View
+  
+}
+public struct ScoreWidgetStyle {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(regularFont: Swift.String? = nil, semiBoldFont: Swift.String? = nil)
+  #endif
+}
+public struct ScoreWidgetOptions {
+  public init(currency: Foundation.Locale.Currency, returnsFee: Swift.Int)
+}
+public enum ScoreWidgetBuilder {
+  public static func buildSwiftUIInfoWidgetView(clientId: Swift.String, locale: Foundation.Locale.LanguageCode, token: Swift.String, options: EComIDWidgets.ScoreWidgetOptions, style: EComIDWidgets.ScoreWidgetStyle) -> some SwiftUICore.View
+  
+}
+public enum FontError : Swift.Error {
+  case failedToRegisterFont
+  public static func == (a: EComIDWidgets.FontError, b: EComIDWidgets.FontError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct HMFont {
+  public let name: Swift.String
+  public static let regular: EComIDWidgets.HMFont
+}
+public struct EComIDFont {
+  public let name: Swift.String
+  public static let regular: EComIDWidgets.EComIDFont
+  public static let medium: EComIDWidgets.EComIDFont
+}
+extension SwiftUICore.Font {
+  public struct HM {
+    public static func fixed(_ style: EComIDWidgets.HMFont, size: CoreFoundation.CGFloat) -> SwiftUICore.Font
+    public static func relative(_ style: EComIDWidgets.HMFont, size: CoreFoundation.CGFloat, relativeTo textStyle: SwiftUICore.Font.TextStyle) -> SwiftUICore.Font
+  }
+  public struct EComID {
+    public static func fixed(_ style: EComIDWidgets.EComIDFont, size: CoreFoundation.CGFloat) -> SwiftUICore.Font
+    public static func relative(_ style: EComIDWidgets.EComIDFont, size: CoreFoundation.CGFloat, relativeTo textStyle: SwiftUICore.Font.TextStyle) -> SwiftUICore.Font
+  }
+}
+extension UIKit.UIFont {
+  public struct HM {
+    public static func fixed(_ style: EComIDWidgets.HMFont, size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  }
+  public struct EComID {
+    public static func fixed(_ style: EComIDWidgets.EComIDFont, size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  }
+}
+extension EComIDWidgets.FontError : Swift.Equatable {}
+extension EComIDWidgets.FontError : Swift.Hashable {}
