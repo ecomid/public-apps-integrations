@@ -1,0 +1,4 @@
+framework module EComIDWidgets {
+  header "EComIDWidgets-Swift.h"
+  requires objc
+}
