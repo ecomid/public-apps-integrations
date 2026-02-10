@@ -905,77 +905,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "ScoreWidgetOptions",
-        "printedName": "ScoreWidgetOptions",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(currency:returnsFee:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ScoreWidgetOptions",
-                "printedName": "EComIDWidgets.ScoreWidgetOptions",
-                "usr": "s:13EComIDWidgets18ScoreWidgetOptionsV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Currency",
-                "printedName": "Foundation.Locale.Currency",
-                "usr": "s:10Foundation6LocaleV8CurrencyV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13EComIDWidgets18ScoreWidgetOptionsV8currency10returnsFeeAC10Foundation6LocaleV8CurrencyV_Sitcfc",
-            "mangledName": "$s13EComIDWidgets18ScoreWidgetOptionsV8currency10returnsFeeAC10Foundation6LocaleV8CurrencyV_Sitcfc",
-            "moduleName": "EComIDWidgets",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13EComIDWidgets18ScoreWidgetOptionsV",
-        "mangledName": "$s13EComIDWidgets18ScoreWidgetOptionsV",
-        "moduleName": "EComIDWidgets",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "ScoreWidgetBuilder",
         "printedName": "ScoreWidgetBuilder",
         "children": [
           {
             "kind": "Function",
             "name": "buildSwiftUIScoreWidgetView",
-            "printedName": "buildSwiftUIScoreWidgetView(clientId:locale:token:options:style:)",
+            "printedName": "buildSwiftUIScoreWidgetView(clientId:locale:token:style:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1010,20 +946,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "ScoreWidgetOptions",
-                "printedName": "EComIDWidgets.ScoreWidgetOptions",
-                "usr": "s:13EComIDWidgets18ScoreWidgetOptionsV"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "ScoreWidgetStyle",
                 "printedName": "EComIDWidgets.ScoreWidgetStyle",
                 "usr": "s:13EComIDWidgets16ScoreWidgetStyleV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13EComIDWidgets18ScoreWidgetBuilderO017buildSwiftUIScoreD4View8clientId6locale5token7options5styleQrSS_10Foundation6LocaleV12LanguageCodeVSSAA0cD7OptionsVAA0cD5StyleVtFZ",
-            "mangledName": "$s13EComIDWidgets18ScoreWidgetBuilderO017buildSwiftUIScoreD4View8clientId6locale5token7options5styleQrSS_10Foundation6LocaleV12LanguageCodeVSSAA0cD7OptionsVAA0cD5StyleVtFZ",
+            "usr": "s:13EComIDWidgets18ScoreWidgetBuilderO017buildSwiftUIScoreD4View8clientId6locale5token5styleQrSS_10Foundation6LocaleV12LanguageCodeVSSAA0cD5StyleVtFZ",
+            "mangledName": "$s13EComIDWidgets18ScoreWidgetBuilderO017buildSwiftUIScoreD4View8clientId6locale5token5styleQrSS_10Foundation6LocaleV12LanguageCodeVSSAA0cD5StyleVtFZ",
             "moduleName": "EComIDWidgets",
             "static": true,
             "declAttributes": [
@@ -2448,49 +2378,42 @@
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2305,
+      "offset": 2352,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2507,
+      "offset": 2575,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2515,
+      "offset": 2679,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2621,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2634,
+      "offset": 2692,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2659,
+      "offset": 2717,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2682,
+      "offset": 2740,
       "length": 1,
       "value": "\"%\""
     },
@@ -2535,6 +2458,13 @@
       "offset": 6383,
       "length": 3,
       "value": "500"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6442,
+      "length": 3,
+      "value": "300"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
