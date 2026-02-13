@@ -44,7 +44,7 @@ public struct ScoreWidgetStyle {
   #endif
 }
 public enum ScoreWidgetBuilder {
-  public static func buildSwiftUIScoreWidgetView(clientId: Swift.String, locale: Foundation.Locale.LanguageCode, token: Swift.String, style: EComIDWidgets.ScoreWidgetStyle) -> some SwiftUICore.View
+  public static func buildSwiftUIScoreWidgetView(clientId: Swift.String, locale: Swift.String, token: Swift.String, style: EComIDWidgets.ScoreWidgetStyle) -> some SwiftUICore.View
   
 }
 public enum FontError : Swift.Error {
