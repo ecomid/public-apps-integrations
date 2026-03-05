@@ -905,13 +905,114 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ScoreWidgetOptions",
+        "printedName": "ScoreWidgetOptions",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(location:feeCurrency:baseFeeAmount:discountedFeeAmount:itemReturnRate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScoreWidgetOptions",
+                "printedName": "EComIDWidgets.ScoreWidgetOptions",
+                "usr": "s:13EComIDWidgets18ScoreWidgetOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13EComIDWidgets18ScoreWidgetOptionsV8location11feeCurrency13baseFeeAmount010discountedjK014itemReturnRateACSSSg_SSS2iSdSgtcfc",
+            "mangledName": "$s13EComIDWidgets18ScoreWidgetOptionsV8location11feeCurrency13baseFeeAmount010discountedjK014itemReturnRateACSSSg_SSS2iSdSgtcfc",
+            "moduleName": "EComIDWidgets",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13EComIDWidgets18ScoreWidgetOptionsV",
+        "mangledName": "$s13EComIDWidgets18ScoreWidgetOptionsV",
+        "moduleName": "EComIDWidgets",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ScoreWidgetBuilder",
         "printedName": "ScoreWidgetBuilder",
         "children": [
           {
             "kind": "Function",
             "name": "buildSwiftUIScoreWidgetView",
-            "printedName": "buildSwiftUIScoreWidgetView(clientId:locale:token:style:)",
+            "printedName": "buildSwiftUIScoreWidgetView(clientId:locale:token:style:options:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -940,20 +1041,44 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
                 "name": "ScoreWidgetStyle",
                 "printedName": "EComIDWidgets.ScoreWidgetStyle",
                 "usr": "s:13EComIDWidgets16ScoreWidgetStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "EComIDWidgets.ScoreWidgetOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScoreWidgetOptions",
+                    "printedName": "EComIDWidgets.ScoreWidgetOptions",
+                    "usr": "s:13EComIDWidgets18ScoreWidgetOptionsV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13EComIDWidgets18ScoreWidgetBuilderO017buildSwiftUIScoreD4View8clientId6locale5token5styleQrSS_S2SAA0cD5StyleVtFZ",
-            "mangledName": "$s13EComIDWidgets18ScoreWidgetBuilderO017buildSwiftUIScoreD4View8clientId6locale5token5styleQrSS_S2SAA0cD5StyleVtFZ",
+            "usr": "s:13EComIDWidgets18ScoreWidgetBuilderO017buildSwiftUIScoreD4View8clientId6locale5token5style7optionsQrSS_S2SSgAA0cD5StyleVAA0cD7OptionsVSgtFZ",
+            "mangledName": "$s13EComIDWidgets18ScoreWidgetBuilderO017buildSwiftUIScoreD4View8clientId6locale5token5style7optionsQrSS_S2SSgAA0cD5StyleVAA0cD7OptionsVSgtFZ",
             "moduleName": "EComIDWidgets",
             "static": true,
             "declAttributes": [
@@ -2336,84 +2461,112 @@
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 549,
+      "offset": 575,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 613,
+      "offset": 639,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 792,
+      "offset": 818,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 853,
+      "offset": 879,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1035,
+      "offset": 1061,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1099,
+      "offset": 1125,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2352,
+      "offset": 1308,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1372,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2746,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2778,
+      "length": 6,
+      "value": "\"Free\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2891,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2575,
+      "offset": 3094,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2679,
+      "offset": 3198,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2692,
+      "offset": 3211,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2717,
+      "offset": 3236,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2740,
+      "offset": 3259,
       "length": 1,
       "value": "\"%\""
     },
@@ -2427,44 +2580,51 @@
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6156,
+      "offset": 7677,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "StringLiteral",
-      "offset": 6346,
+      "offset": 7867,
       "length": 5,
       "value": "\"usd\""
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "StringLiteral",
-      "offset": 6399,
+      "offset": 7920,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "FloatLiteral",
-      "offset": 6446,
+      "offset": 7967,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6498,
+      "offset": 8023,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6557,
-      "length": 3,
-      "value": "300"
+      "offset": 8085,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
+      "kind": "StringLiteral",
+      "offset": 8134,
+      "length": 7,
+      "value": "\"order\""
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/ViewControllers\/WebViewController.swift",
@@ -2521,6 +2681,20 @@
       "offset": 288,
       "length": 2,
       "value": "21"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/BaseTranslations.swift",
+      "kind": "Dictionary",
+      "offset": 150,
+      "length": 693,
+      "value": "[(\"en\", \"{\n    \"returns\": {\n        \"title\": \"Your return fee\",\n        \"order\": {\n            \"title\": \"Order return fee\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Discounted\",\n        \"original\": \"Original\",\n        \"hint\": \"Open to learn more\"\n    }\n}\"), (\"fi\", \"{\n    \"returns\": {\n        \"title\": \"Palautusmaksusi\",\n        \"order\": {\n            \"title\": \"Tilauksen palautusmaksu\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Alennettu\",\n        \"original\": \"Alkuperäinen\",\n        \"hint\": \"Avaa saadaksesi lisätietoja\"\n    }\n}\")]"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/BaseTranslations.swift",
+      "kind": "Dictionary",
+      "offset": 890,
+      "length": 1614,
+      "value": "[(\"en\", \"{\n    \"returns\": {\n        \"title\": \"Return fee details\",\n        \"order\": {\n            \"fee\": \"Order return fee\"\n        },\n        \"in_store\": \"In-store return\",\n        \"next_return\": \"Your next return\",\n        \"free\": \"Free\",\n        \"always_free\": \"Always free\",\n        \"consecutive_returns\": \"Every return after\",\n        \"fee\": \"Return fee\",\n        \"rate\": \"Return rate\",\n        \"disclaimer\": \"For more info, please visit the returns section in our Customer Service pages.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Discounted\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"eComID logo\"\n    },\n    \"actions\": {\n        \"close\": \"Close\"\n    }\n}\"), (\"fi\", \"{\n    \"returns\": {\n        \"title\": \"Palautusmaksun tiedot\",\n        \"order\": {\n            \"fee\": \"Tilauksen palautusmaksu\"\n        },\n        \"in_store\": \"Myymäläpalautus\",\n        \"next_return\": \"Seuraava palautuksesi\",\n        \"free\": \"Ilmainen\",\n        \"always_free\": \"Aina ilmainen\",\n        \"consecutive_returns\": \"Kaikki sitä seuraavat palautukset\",\n        \"fee\": \"Palautusmaksu\",\n        \"rate\": \"Palautusosuus\",\n        \"disclaimer\": \"Lisätietoja löydät asiakaspalvelusivujemme palautusosiosta.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Alennettu\",\n        \"original\": \"Alkuperäinen\",\n        \"ecomid_logo\": \"eComID-logo\"\n    },\n    \"actions\": {\n        \"close\": \"Sulje\"\n    }\n}\")]"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
@@ -2643,10 +2817,38 @@
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/LocalizationRepository.swift",
-      "kind": "Dictionary",
-      "offset": 420,
-      "length": 3,
-      "value": "[]"
+      "kind": "StringLiteral",
+      "offset": 1369,
+      "length": 10,
+      "value": "\"in_store\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/LocalizationRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1410,
+      "length": 13,
+      "value": "\"next_return\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/LocalizationRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1476,
+      "length": 13,
+      "value": "\"always_free\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/LocalizationRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1528,
+      "length": 21,
+      "value": "\"consecutive_returns\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/LocalizationRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1887,
+      "length": 13,
+      "value": "\"ecomid_logo\""
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Fonts.swift",
