@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name EComIDWidgets
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import Combine
 import DeveloperToolsSupport
 import Foundation
@@ -43,9 +43,16 @@ public struct ScoreWidgetStyle {
   public init(regularFont: Swift.String? = nil, semiBoldFont: Swift.String? = nil)
   #endif
 }
+public struct ScoreWidgetOptions {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(location: Swift.String? = nil, feeCurrency: Swift.String, baseFeeAmount: Swift.Int, discountedFeeAmount: Swift.Int, itemReturnRate: Swift.Double? = nil)
+  #endif
+}
 public enum ScoreWidgetBuilder {
-  public static func buildSwiftUIScoreWidgetView(clientId: Swift.String, locale: Swift.String, token: Swift.String, style: EComIDWidgets.ScoreWidgetStyle) -> some SwiftUICore.View
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func buildSwiftUIScoreWidgetView(clientId: Swift.String, locale: Swift.String, token: Swift.String? = nil, style: EComIDWidgets.ScoreWidgetStyle, options: EComIDWidgets.ScoreWidgetOptions? = nil) -> some SwiftUICore.View
   
+  #endif
 }
 public enum FontError : Swift.Error {
   case failedToRegisterFont
