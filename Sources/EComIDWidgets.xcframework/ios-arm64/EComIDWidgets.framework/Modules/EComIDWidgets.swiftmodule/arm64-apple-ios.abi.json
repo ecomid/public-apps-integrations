@@ -2531,42 +2531,42 @@
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2891,
+      "offset": 2899,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3094,
+      "offset": 3110,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3198,
+      "offset": 3214,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3211,
+      "offset": 3227,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3236,
+      "offset": 3252,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3259,
+      "offset": 3275,
       "length": 1,
       "value": "\"%\""
     },
@@ -2610,19 +2610,19 @@
       "kind": "IntegerLiteral",
       "offset": 8023,
       "length": 3,
-      "value": "500"
+      "value": "250"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "IntegerLiteral",
       "offset": 8085,
-      "length": 1,
-      "value": "0"
+      "length": 3,
+      "value": "149"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "StringLiteral",
-      "offset": 8134,
+      "offset": 8136,
       "length": 7,
       "value": "\"order\""
     },
