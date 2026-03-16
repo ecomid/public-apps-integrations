@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		tMVEGfjMJsesfFzW/zRQgxXlUbg=
+		H2ZsaG6frjS9HpqS+g3gHWuHHUI=
 		</data>
 		<key>Headers/EComIDWidgets-Swift.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UAoaRwkI/VfaMGp2Y8tt6MuXN/U=
+		Lsh9OpRj3GURX5fontWnfvp8h28=
 		</data>
 		<key>Modules/EComIDWidgets.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+a4bVaNCdf+nJdbSpcjW2YceDh0=
+		Khb6mZ2W265tJ0rtoKbClPdKwN4=
 		</data>
 		<key>Modules/EComIDWidgets.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/EComIDWidgets.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qbW6VYpygAErwxKatAuUKbM8qr8=
+		0P5bzGQlfwWmDHy6ygurlsrphQA=
 		</data>
 		<key>Modules/EComIDWidgets.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+a4bVaNCdf+nJdbSpcjW2YceDh0=
+		Khb6mZ2W265tJ0rtoKbClPdKwN4=
 		</data>
 		<key>Modules/EComIDWidgets.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/EComIDWidgets.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		i4caEv2hVTNK97WR+YxmDooVQE4=
+		HZAO2kOAcb0i4gJHDHWzfUNIQD8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -169,7 +169,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			say/rzEnHSd1C3bYzLJW4D01llRcgQ3GQ/Ke2VPe1Fo=
+			uRYJ4rCsyQnDnStB6mg0LdUsrQfLW9MW5lsELJiRXTI=
 			</data>
 		</dict>
 		<key>Headers/EComIDWidgets-Swift.h</key>
@@ -190,7 +190,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tQkaaDBbAF14lqlL5aRSHLIUGRUZdFtRa3+VogqPZik=
+			4F8JQNWMKZ9yhMCAzk55U+EZl+j98pjhdXNbWsn31HQ=
 			</data>
 		</dict>
 		<key>Modules/EComIDWidgets.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -218,14 +218,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			js7sNx4LlbHXEU4BzsPpUrg1HUrQ14PwBoBqmC8qgs0=
+			8vXQVDHxVNSWieWrbKpjxMPrmXwwlKSC7y6tntE/pWA=
 			</data>
 		</dict>
 		<key>Modules/EComIDWidgets.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tQkaaDBbAF14lqlL5aRSHLIUGRUZdFtRa3+VogqPZik=
+			4F8JQNWMKZ9yhMCAzk55U+EZl+j98pjhdXNbWsn31HQ=
 			</data>
 		</dict>
 		<key>Modules/EComIDWidgets.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -253,7 +253,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eAuruvSD/6GvEiJRX4I8m8rJFzCdI67mtrkRDmKE8wI=
+			R9G89lIWiyYb9kfoZW3gVsq0QZFUDOJf/NvCoKTJF5k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
