@@ -806,20 +806,13 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "EComIDWidgets",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "EComIDWidgets"
       },
       {
         "kind": "TypeDecl",
@@ -829,7 +822,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(regularFont:semiBoldFont:)",
+            "printedName": "init(regularFont:semiBoldFont:overlayBackgroundColor:primaryFontColor:secondaryFontColor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -866,11 +859,56 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13EComIDWidgets16ScoreWidgetStyleV11regularFont08semiBoldG0ACSSSg_AFtcfc",
-            "mangledName": "$s13EComIDWidgets16ScoreWidgetStyleV11regularFont08semiBoldG0ACSSSg_AFtcfc",
+            "usr": "s:13EComIDWidgets16ScoreWidgetStyleV11regularFont08semiBoldG022overlayBackgroundColor07primarygL009secondarygL0ACSSSg_AI7SwiftUI0L0VSgA2Mtcfc",
+            "mangledName": "$s13EComIDWidgets16ScoreWidgetStyleV11regularFont08semiBoldG022overlayBackgroundColor07primarygL009secondarygL0ACSSSg_AI7SwiftUI0L0VSgA2Mtcfc",
             "moduleName": "EComIDWidgets",
             "declAttributes": [
               "AccessControl",
@@ -2566,49 +2604,49 @@
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7963,
+      "offset": 8873,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "StringLiteral",
-      "offset": 8153,
+      "offset": 9063,
       "length": 5,
       "value": "\"usd\""
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "StringLiteral",
-      "offset": 8206,
+      "offset": 9116,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "FloatLiteral",
-      "offset": 8253,
+      "offset": 9163,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8309,
+      "offset": 9219,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8371,
+      "offset": 9281,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "StringLiteral",
-      "offset": 8420,
+      "offset": 9330,
       "length": 2,
       "value": "\"\""
     },
