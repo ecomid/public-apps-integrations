@@ -40,7 +40,7 @@ public enum InfoWidgetBuilder {
 }
 public struct ScoreWidgetStyle {
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(regularFont: Swift.String? = nil, semiBoldFont: Swift.String? = nil)
+  public init(regularFont: Swift.String? = nil, semiBoldFont: Swift.String? = nil, overlayBackgroundColor: SwiftUICore.Color? = nil, primaryFontColor: SwiftUICore.Color? = nil, secondaryFontColor: SwiftUICore.Color? = nil)
   #endif
 }
 public struct ScoreWidgetOptions {
