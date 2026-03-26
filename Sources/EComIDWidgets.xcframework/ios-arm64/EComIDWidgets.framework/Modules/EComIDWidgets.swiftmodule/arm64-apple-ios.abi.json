@@ -120,38 +120,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -162,17 +134,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -183,10 +155,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -194,6 +187,13 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -454,20 +454,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "ObservableObject",
             "printedName": "ObservableObject",
             "children": [
@@ -487,6 +473,20 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1325,17 +1325,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1945,6 +1945,27 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -1959,31 +1980,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "SendableMetatype",
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -2149,45 +2149,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -2198,17 +2163,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -2219,10 +2184,45 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
             "name": "SendableMetatype",
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       }
@@ -2710,15 +2710,15 @@
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/BaseTranslations.swift",
       "kind": "Dictionary",
       "offset": 150,
-      "length": 753,
-      "value": "[(\"en\", \"{\n    \"returns\": {\n        \"title\": \"Your return fee\",\n        \"free\": \"Free\",\n        \"order\": {\n            \"title\": \"Order return fee\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Discounted\",\n        \"original\": \"Original\",\n        \"hint\": \"Open to learn more\"\n    }\n}\"), (\"fi\", \"{\n    \"returns\": {\n        \"title\": \"Palautusmaksusi\",\n        \"free\": \"Ilmainen\",\n        \"order\": {\n            \"title\": \"Tilauksen palautusmaksu\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Alennettu\",\n        \"original\": \"Alkuperäinen\",\n        \"hint\": \"Avaa saadaksesi lisätietoja\"\n    }\n}\")]"
+      "length": 1142,
+      "value": "[(\"en\", \"{\n    \"returns\": {\n        \"title\": \"Your return fee\",\n        \"free\": \"Free\",\n        \"order\": {\n            \"title\": \"Order return fee\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Discounted\",\n        \"original\": \"Original\",\n        \"hint\": \"Open to learn more\"\n    }\n}\"), (\"sv\", \"{\n    \"returns\": {\n        \"title\": \"Din returavgift\",\n        \"free\": \"Gratis\",\n        \"order\": {\n            \"title\": \"Returavgift för beställning\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Rabatterat\",\n        \"original\": \"Original\",\n        \"hint\": \"Öppna för att lära dig mer\"\n    }\n}\"), (\"fi\", \"{\n    \"returns\": {\n        \"title\": \"Palautusmaksusi\",\n        \"free\": \"Ilmainen\",\n        \"order\": {\n            \"title\": \"Tilauksen palautusmaksu\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Alennettu\",\n        \"original\": \"Alkuperäinen\",\n        \"hint\": \"Avaa saadaksesi lisätietoja\"\n    }\n}\")]"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/BaseTranslations.swift",
       "kind": "Dictionary",
-      "offset": 950,
-      "length": 1614,
-      "value": "[(\"en\", \"{\n    \"returns\": {\n        \"title\": \"Return fee details\",\n        \"order\": {\n            \"fee\": \"Order return fee\"\n        },\n        \"in_store\": \"In-store return\",\n        \"next_return\": \"Your next return\",\n        \"free\": \"Free\",\n        \"always_free\": \"Always free\",\n        \"consecutive_returns\": \"Every return after\",\n        \"fee\": \"Return fee\",\n        \"rate\": \"Return rate\",\n        \"disclaimer\": \"For more info, please visit the returns section in our Customer Service pages.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Discounted\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"eComID logo\"\n    },\n    \"actions\": {\n        \"close\": \"Close\"\n    }\n}\"), (\"fi\", \"{\n    \"returns\": {\n        \"title\": \"Palautusmaksun tiedot\",\n        \"order\": {\n            \"fee\": \"Tilauksen palautusmaksu\"\n        },\n        \"in_store\": \"Myymäläpalautus\",\n        \"next_return\": \"Seuraava palautuksesi\",\n        \"free\": \"Ilmainen\",\n        \"always_free\": \"Aina ilmainen\",\n        \"consecutive_returns\": \"Kaikki sitä seuraavat palautukset\",\n        \"fee\": \"Palautusmaksu\",\n        \"rate\": \"Palautusosuus\",\n        \"disclaimer\": \"Lisätietoja löydät asiakaspalvelusivujemme palautusosiosta.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Alennettu\",\n        \"original\": \"Alkuperäinen\",\n        \"ecomid_logo\": \"eComID-logo\"\n    },\n    \"actions\": {\n        \"close\": \"Sulje\"\n    }\n}\")]"
+      "offset": 1339,
+      "length": 2430,
+      "value": "[(\"en\", \"{\n    \"returns\": {\n        \"title\": \"Return fee details\",\n        \"order\": {\n            \"fee\": \"Order return fee\"\n        },\n        \"in_store\": \"In-store return\",\n        \"next_return\": \"Your next return\",\n        \"free\": \"Free\",\n        \"always_free\": \"Always free\",\n        \"consecutive_returns\": \"Every return after\",\n        \"fee\": \"Return fee\",\n        \"rate\": \"Return rate\",\n        \"disclaimer\": \"For more info, please visit the returns section in our Customer Service pages.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Discounted\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"eComID logo\"\n    },\n    \"actions\": {\n        \"close\": \"Close\"\n    }\n}\"), (\"sv\", \"{\n    \"returns\": {\n        \"title\": \"Returavgiftsdetaljer\",\n        \"order\": {\n            \"fee\": \"Returavgift för beställning\"\n        },\n        \"in_store\": \"Retur i butik\",\n        \"next_return\": \"Din nästa retur\",\n        \"free\": \"Gratis\",\n        \"always_free\": \"Alltid gratis\",\n        \"consecutive_returns\": \"Varje retur därefter\",\n        \"fee\": \"Returavgift\",\n        \"rate\": \"Returgrad\",\n        \"disclaimer\": \"För mer information, vänligen besök retursektionen på våra kundservicesidor.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Rabatterat\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"eComID logotyp\"\n    },\n    \"actions\": {\n        \"close\": \"Stäng\"\n    }\n}\"), (\"fi\", \"{\n    \"returns\": {\n        \"title\": \"Palautusmaksun tiedot\",\n        \"order\": {\n            \"fee\": \"Tilauksen palautusmaksu\"\n        },\n        \"in_store\": \"Myymäläpalautus\",\n        \"next_return\": \"Seuraava palautuksesi\",\n        \"free\": \"Ilmainen\",\n        \"always_free\": \"Aina ilmainen\",\n        \"consecutive_returns\": \"Kaikki sitä seuraavat palautukset\",\n        \"fee\": \"Palautusmaksu\",\n        \"rate\": \"Palautusosuus\",\n        \"disclaimer\": \"Lisätietoja löydät asiakaspalvelusivujemme palautusosiosta.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Alennettu\",\n        \"original\": \"Alkuperäinen\",\n        \"ecomid_logo\": \"eComID-logo\"\n    },\n    \"actions\": {\n        \"close\": \"Sulje\"\n    }\n}\")]"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
