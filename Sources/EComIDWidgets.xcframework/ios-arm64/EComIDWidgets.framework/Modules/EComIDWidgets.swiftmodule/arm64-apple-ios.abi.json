@@ -529,6 +529,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "EComIDWidgets",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2491,108 +2501,73 @@
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 377,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 607,
+      "offset": 568,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 671,
+      "offset": 632,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 850,
+      "offset": 811,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 911,
+      "offset": 872,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1093,
+      "offset": 1054,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1157,
+      "offset": 1118,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1340,
+      "offset": 1301,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1404,
+      "offset": 1365,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2886,
+      "offset": 2896,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3097,
+      "offset": 3107,
       "length": 3,
       "value": "100"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3201,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3214,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3239,
-      "length": 25,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3262,
-      "length": 1,
-      "value": "\"%\""
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
@@ -2604,49 +2579,49 @@
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8873,
+      "offset": 3340,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "StringLiteral",
-      "offset": 9063,
+      "offset": 3530,
       "length": 5,
-      "value": "\"usd\""
+      "value": "\"chf\""
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "StringLiteral",
-      "offset": 9116,
+      "offset": 3583,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "FloatLiteral",
-      "offset": 9163,
+      "offset": 3639,
       "length": 3,
-      "value": "0.4"
+      "value": "0.5"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9219,
+      "offset": 3695,
       "length": 3,
-      "value": "500"
+      "value": "395"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9281,
-      "length": 1,
-      "value": "0"
+      "offset": 3757,
+      "length": 3,
+      "value": "395"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
       "kind": "StringLiteral",
-      "offset": 9330,
+      "offset": 3808,
       "length": 2,
       "value": "\"\""
     },
@@ -2710,15 +2685,15 @@
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/BaseTranslations.swift",
       "kind": "Dictionary",
       "offset": 150,
-      "length": 1142,
-      "value": "[(\"en\", \"{\n    \"returns\": {\n        \"title\": \"Your return fee\",\n        \"free\": \"Free\",\n        \"order\": {\n            \"title\": \"Order return fee\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Discounted\",\n        \"original\": \"Original\",\n        \"hint\": \"Open to learn more\"\n    }\n}\"), (\"sv\", \"{\n    \"returns\": {\n        \"title\": \"Din returavgift\",\n        \"free\": \"Gratis\",\n        \"order\": {\n            \"title\": \"Returavgift för beställning\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Rabatterat\",\n        \"original\": \"Original\",\n        \"hint\": \"Öppna för att lära dig mer\"\n    }\n}\"), (\"fi\", \"{\n    \"returns\": {\n        \"title\": \"Palautusmaksusi\",\n        \"free\": \"Ilmainen\",\n        \"order\": {\n            \"title\": \"Tilauksen palautusmaksu\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Alennettu\",\n        \"original\": \"Alkuperäinen\",\n        \"hint\": \"Avaa saadaksesi lisätietoja\"\n    }\n}\")]"
+      "length": 2300,
+      "value": "[(\"en\", \"{\n    \"returns\": {\n        \"title\": \"Your return fee\",\n        \"free\": \"Free\",\n        \"order\": {\n            \"title\": \"Order return fee\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Discounted\",\n        \"original\": \"Original\",\n        \"hint\": \"Open to learn more\"\n    }\n}\"), (\"sv\", \"{\n    \"returns\": {\n        \"title\": \"Din returavgift\",\n        \"free\": \"Gratis\",\n        \"order\": {\n            \"title\": \"Returavgift för beställning\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Rabatterat\",\n        \"original\": \"Original\",\n        \"hint\": \"Öppna för att lära dig mer\"\n    }\n}\"), (\"fi\", \"{\n    \"returns\": {\n        \"title\": \"Palautusmaksusi\",\n        \"free\": \"Ilmainen\",\n        \"order\": {\n            \"title\": \"Tilauksen palautusmaksu\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Alennettu\",\n        \"original\": \"Alkuperäinen\",\n        \"hint\": \"Avaa saadaksesi lisätietoja\"\n    }\n}\"), (\"de\", \"{\n    \"returns\": {\n        \"title\": \"Deine Rücksendekosten\",\n        \"free\": \"Kostenlos\",\n        \"order\": {\n            \"title\": \"Rücksendegebühr\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Reduziert\",\n        \"original\": \"Original\",\n        \"hint\": \"Öffnen, um mehr zu erfahren\"\n    }\n}\"), (\"it\", \"{\n    \"returns\": {\n        \"title\": \"Il tuo costo di reso\",\n        \"free\": \"Gratuito\",\n        \"order\": {\n            \"title\": \"Tassa di reso dell'ordine\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Scontato\",\n        \"original\": \"Originale\",\n        \"hint\": \"Apri per saperne di più\"\n    }\n}\"), (\"fr\", \"{\n    \"returns\": {\n        \"title\": \"Tes frais de retour\",\n        \"free\": \"Gratuit\",\n        \"order\": {\n            \"title\": \"Frais de retour de commande\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"En promo\",\n        \"original\": \"Original\",\n        \"hint\": \"Ouvrir pour en savoir plus\"\n    }\n}\")]"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/BaseTranslations.swift",
       "kind": "Dictionary",
-      "offset": 1339,
-      "length": 2430,
-      "value": "[(\"en\", \"{\n    \"returns\": {\n        \"title\": \"Return fee details\",\n        \"order\": {\n            \"fee\": \"Order return fee\"\n        },\n        \"in_store\": \"In-store return\",\n        \"next_return\": \"Your next return\",\n        \"free\": \"Free\",\n        \"always_free\": \"Always free\",\n        \"consecutive_returns\": \"Every return after\",\n        \"fee\": \"Return fee\",\n        \"rate\": \"Return rate\",\n        \"disclaimer\": \"For more info, please visit the returns section in our Customer Service pages.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Discounted\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"eComID logo\"\n    },\n    \"actions\": {\n        \"close\": \"Close\"\n    }\n}\"), (\"sv\", \"{\n    \"returns\": {\n        \"title\": \"Returavgiftsdetaljer\",\n        \"order\": {\n            \"fee\": \"Returavgift för beställning\"\n        },\n        \"in_store\": \"Retur i butik\",\n        \"next_return\": \"Din nästa retur\",\n        \"free\": \"Gratis\",\n        \"always_free\": \"Alltid gratis\",\n        \"consecutive_returns\": \"Varje retur därefter\",\n        \"fee\": \"Returavgift\",\n        \"rate\": \"Returgrad\",\n        \"disclaimer\": \"För mer information, vänligen besök retursektionen på våra kundservicesidor.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Rabatterat\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"eComID logotyp\"\n    },\n    \"actions\": {\n        \"close\": \"Stäng\"\n    }\n}\"), (\"fi\", \"{\n    \"returns\": {\n        \"title\": \"Palautusmaksun tiedot\",\n        \"order\": {\n            \"fee\": \"Tilauksen palautusmaksu\"\n        },\n        \"in_store\": \"Myymäläpalautus\",\n        \"next_return\": \"Seuraava palautuksesi\",\n        \"free\": \"Ilmainen\",\n        \"always_free\": \"Aina ilmainen\",\n        \"consecutive_returns\": \"Kaikki sitä seuraavat palautukset\",\n        \"fee\": \"Palautusmaksu\",\n        \"rate\": \"Palautusosuus\",\n        \"disclaimer\": \"Lisätietoja löydät asiakaspalvelusivujemme palautusosiosta.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Alennettu\",\n        \"original\": \"Alkuperäinen\",\n        \"ecomid_logo\": \"eComID-logo\"\n    },\n    \"actions\": {\n        \"close\": \"Sulje\"\n    }\n}\")]"
+      "offset": 2497,
+      "length": 5476,
+      "value": "[(\"en\", \"{\n    \"returns\": {\n        \"title\": \"Return fee details\",\n        \"order\": {\n            \"fee\": \"Order return fee\"\n        },\n        \"in_store\": \"In-store return\",\n        \"next_return\": \"Your next return\",\n        \"free\": \"Free\",\n        \"always_free\": \"Always free\",\n        \"consecutive_returns\": \"Every return after\",\n        \"fee\": \"Your return fee\",\n        \"rate\": \"Your return rate\",\n        \"disclaimer\": \"Return fee is based on your return rate. A lower return rate equals a lower fee. For more info, please visit the returns section in our Customer Service pages\"\n    },\n    \"labels\": {\n        \"discounted\": \"Discounted\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"eComID logo\"\n    },\n    \"actions\": {\n        \"close\": \"Close\"\n    }\n}\"), (\"sv\", \"{\n    \"returns\": {\n        \"title\": \"Returavgiftsdetaljer\",\n        \"order\": {\n            \"fee\": \"Returavgift för beställning\"\n        },\n        \"in_store\": \"Retur i butik\",\n        \"next_return\": \"Din nästa retur\",\n        \"free\": \"Gratis\",\n        \"always_free\": \"Alltid gratis\",\n        \"consecutive_returns\": \"Varje retur därefter\",\n        \"fee\": \"Returavgift\",\n        \"rate\": \"Returgrad\",\n        \"disclaimer\": \"För mer information, vänligen besök retursektionen på våra kundservicesidor.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Rabatterat\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"eComID logotyp\"\n    },\n    \"actions\": {\n        \"close\": \"Stäng\"\n    }\n}\"), (\"fi\", \"{\n    \"returns\": {\n        \"title\": \"Palautusmaksun tiedot\",\n        \"order\": {\n            \"fee\": \"Tilauksen palautusmaksu\"\n        },\n        \"in_store\": \"Myymäläpalautus\",\n        \"next_return\": \"Seuraava palautuksesi\",\n        \"free\": \"Ilmainen\",\n        \"always_free\": \"Aina ilmainen\",\n        \"consecutive_returns\": \"Kaikki sitä seuraavat palautukset\",\n        \"fee\": \"Palautusmaksu\",\n        \"rate\": \"Palautusosuus\",\n        \"disclaimer\": \"Lisätietoja on asiakaspalvelumme palautusosiossa.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Alennettu\",\n        \"original\": \"Alkuperäinen\",\n        \"ecomid_logo\": \"eComID-logo\"\n    },\n    \"actions\": {\n        \"close\": \"Sulje\"\n    }\n}\"), (\"de\", \"{\n    \"returns\": {\n        \"title\": \"Deine Rücksendekosten\",\n        \"order\": {\n            \"fee\": \"Rücksendequote für diese Bestellung\"\n        },\n        \"in_store\": \"Rückgabe im Store\",\n        \"next_return\": \"Erste Rücksendung\",\n        \"free\": \"Kostenlos\",\n        \"always_free\": \"Immer kostenlos\",\n        \"consecutive_returns\": \"Jede weitere Rücksendung\",\n        \"fee\": \"Deine Rücksendekosten\",\n        \"rate\": \"Deine Retourenquote\",\n        \"disclaimer\": \"Die Rücksendegebühr basiert auf Ihrer Rücksendungsquote. Eine niedrigere Rücksendequote bedeutet eine geringere Gebühr. Für weitere Informationen besuchen Sie bitte den Abschnitt Rücksendungen auf unseren Kundendienst-Seiten.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Reduziert\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"eComID‑Logo\"\n    },\n    \"actions\": {\n        \"close\": \"Schließen\"\n    }\n}\"), (\"it\", \"{\n    \"returns\": {\n        \"title\": \"Il tuo costo di reso\",\n        \"order\": {\n            \"fee\": \"Tasso di reso per questo ordine\"\n        },\n        \"in_store\": \"Reso in negozio\",\n        \"next_return\": \"Primo reso\",\n        \"free\": \"Gratuito\",\n        \"always_free\": \"Sempre gratuito\",\n        \"consecutive_returns\": \"Ogni altro reso\",\n        \"fee\": \"La tua commissione di reso\",\n        \"rate\": \"Il tuo tasso di rendimento\",\n        \"disclaimer\": \"La commissione di reso è basata sul tuo tasso di reso. Un tasso di reso più basso equivale a una commissione inferiore. Per maggiori informazioni, visita la sezione resi nelle nostre pagine del Servizio Clienti.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Scontato\",\n        \"original\": \"Originale\",\n        \"ecomid_logo\": \"Logo eComID\"\n    },\n    \"actions\": {\n        \"close\": \"Chiudi\"\n    }\n}\"), (\"fr\", \"{\n    \"returns\": {\n        \"title\": \"Tes frais de retour\",\n        \"order\": {\n            \"fee\": \"Taux de retour pour cette commande\"\n        },\n        \"in_store\": \"Retour en magasin\",\n        \"next_return\": \"Premier retour\",\n        \"free\": \"Gratuit\",\n        \"always_free\": \"Toujours gratuit\",\n        \"consecutive_returns\": \"Tout retour supplémentaire\",\n        \"fee\": \"Tes frais de retour\",\n        \"rate\": \"Ton taux de retour\",\n        \"disclaimer\": \"Les frais de retour sont basés sur votre taux de retour. Un taux de retour plus bas équivaut à des frais plus bas. Pour plus d'informations, veuillez visiter la section des retours dans nos pages de service client.\"\n    },\n    \"labels\": {\n        \"discounted\": \"En promo\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"Logo eComID\"\n    },\n    \"actions\": {\n        \"close\": \"Fermé\"\n    }\n}\")]"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
