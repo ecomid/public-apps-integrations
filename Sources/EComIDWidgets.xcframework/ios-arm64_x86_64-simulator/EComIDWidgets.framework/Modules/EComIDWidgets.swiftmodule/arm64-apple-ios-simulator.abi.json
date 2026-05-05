@@ -22,6 +22,366 @@
         "moduleName": "EComIDWidgets"
       },
       {
+        "kind": "TypeDecl",
+        "name": "InfoWidgetUIKit",
+        "printedName": "InfoWidgetUIKit",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(viewModel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InfoWidgetUIKit",
+                "printedName": "EComIDWidgets.InfoWidgetUIKit",
+                "usr": "s:13EComIDWidgets15InfoWidgetUIKitV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIInfoWidgetViewModel",
+                "printedName": "EComIDWidgets.UIInfoWidgetViewModel",
+                "usr": "s:13EComIDWidgets21UIInfoWidgetViewModelC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13EComIDWidgets15InfoWidgetUIKitV9viewModelAcA06UIInfod4ViewG0C_tcfc",
+            "mangledName": "$s13EComIDWidgets15InfoWidgetUIKitV9viewModelAcA06UIInfod4ViewG0C_tcfc",
+            "moduleName": "EComIDWidgets",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInfoWidget",
+                "printedName": "EComIDWidgets.UIInfoWidget",
+                "usr": "c:@M@EComIDWidgets@objc(cs)UIInfoWidget"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<EComIDWidgets.InfoWidgetUIKit>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InfoWidgetUIKit",
+                    "printedName": "EComIDWidgets.InfoWidgetUIKit",
+                    "usr": "s:13EComIDWidgets15InfoWidgetUIKitV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13EComIDWidgets15InfoWidgetUIKitV10makeUIView7contextAA06UIInfoD0C7SwiftUI0G20RepresentableContextVyACG_tF",
+            "mangledName": "$s13EComIDWidgets15InfoWidgetUIKitV10makeUIView7contextAA06UIInfoD0C7SwiftUI0G20RepresentableContextVyACG_tF",
+            "moduleName": "EComIDWidgets",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIInfoWidget",
+                "printedName": "EComIDWidgets.UIInfoWidget",
+                "usr": "c:@M@EComIDWidgets@objc(cs)UIInfoWidget"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<EComIDWidgets.InfoWidgetUIKit>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InfoWidgetUIKit",
+                    "printedName": "EComIDWidgets.InfoWidgetUIKit",
+                    "usr": "s:13EComIDWidgets15InfoWidgetUIKitV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13EComIDWidgets15InfoWidgetUIKitV12updateUIView_7contextyAA06UIInfoD0C_7SwiftUI0G20RepresentableContextVyACGtF",
+            "mangledName": "$s13EComIDWidgets15InfoWidgetUIKitV12updateUIView_7contextyAA06UIInfoD0C_7SwiftUI0G20RepresentableContextVyACGtF",
+            "moduleName": "EComIDWidgets",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13EComIDWidgets15InfoWidgetUIKitV",
+        "mangledName": "$s13EComIDWidgets15InfoWidgetUIKitV",
+        "moduleName": "EComIDWidgets",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInfoWidget",
+                    "printedName": "EComIDWidgets.UIInfoWidget",
+                    "usr": "c:@M@EComIDWidgets@objc(cs)UIInfoWidget"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EComIDWidgets",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EComIDWidgets",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EComIDWidgets",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "EComIDWidgets"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SessionManager",
+        "printedName": "SessionManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SessionManager",
+                "printedName": "EComIDWidgets.SessionManager",
+                "usr": "s:13EComIDWidgets14SessionManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13EComIDWidgets14SessionManagerC6sharedACvpZ",
+            "mangledName": "$s13EComIDWidgets14SessionManagerC6sharedACvpZ",
+            "moduleName": "EComIDWidgets",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SessionManager",
+                    "printedName": "EComIDWidgets.SessionManager",
+                    "usr": "s:13EComIDWidgets14SessionManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13EComIDWidgets14SessionManagerC6sharedACvgZ",
+                "mangledName": "$s13EComIDWidgets14SessionManagerC6sharedACvgZ",
+                "moduleName": "EComIDWidgets",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13EComIDWidgets14SessionManagerC",
+        "mangledName": "$s13EComIDWidgets14SessionManagerC",
+        "moduleName": "EComIDWidgets",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EComIDWidgets",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EComIDWidgets",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EComIDWidgets",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "EComIDWidgets"
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -30,6 +390,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "EComIDWidgets"
       },
       {
         "kind": "Import",
@@ -373,6 +740,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EComIDWidgets"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -502,6 +876,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EComIDWidgets",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -509,8 +893,239 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EComIDWidgets"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIEnvironment",
+        "printedName": "APIEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "production",
+            "printedName": "production",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EComIDWidgets.APIEnvironment.Type) -> EComIDWidgets.APIEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIEnvironment",
+                    "printedName": "EComIDWidgets.APIEnvironment",
+                    "usr": "s:13EComIDWidgets14APIEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EComIDWidgets.APIEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIEnvironment",
+                        "printedName": "EComIDWidgets.APIEnvironment",
+                        "usr": "s:13EComIDWidgets14APIEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13EComIDWidgets14APIEnvironmentO10productionyA2CmF",
+            "mangledName": "$s13EComIDWidgets14APIEnvironmentO10productionyA2CmF",
+            "moduleName": "EComIDWidgets"
+          },
+          {
+            "kind": "Var",
+            "name": "staging",
+            "printedName": "staging",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EComIDWidgets.APIEnvironment.Type) -> EComIDWidgets.APIEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIEnvironment",
+                    "printedName": "EComIDWidgets.APIEnvironment",
+                    "usr": "s:13EComIDWidgets14APIEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EComIDWidgets.APIEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIEnvironment",
+                        "printedName": "EComIDWidgets.APIEnvironment",
+                        "usr": "s:13EComIDWidgets14APIEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13EComIDWidgets14APIEnvironmentO7stagingyA2CmF",
+            "mangledName": "$s13EComIDWidgets14APIEnvironmentO7stagingyA2CmF",
+            "moduleName": "EComIDWidgets"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APIEnvironment",
+                "printedName": "EComIDWidgets.APIEnvironment",
+                "usr": "s:13EComIDWidgets14APIEnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APIEnvironment",
+                "printedName": "EComIDWidgets.APIEnvironment",
+                "usr": "s:13EComIDWidgets14APIEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13EComIDWidgets14APIEnvironmentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13EComIDWidgets14APIEnvironmentO2eeoiySbAC_ACtFZ",
+            "moduleName": "EComIDWidgets",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13EComIDWidgets14APIEnvironmentO9hashValueSivp",
+            "mangledName": "$s13EComIDWidgets14APIEnvironmentO9hashValueSivp",
+            "moduleName": "EComIDWidgets",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13EComIDWidgets14APIEnvironmentO9hashValueSivg",
+                "mangledName": "$s13EComIDWidgets14APIEnvironmentO9hashValueSivg",
+                "moduleName": "EComIDWidgets",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13EComIDWidgets14APIEnvironmentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13EComIDWidgets14APIEnvironmentO4hash4intoys6HasherVz_tF",
+            "moduleName": "EComIDWidgets",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13EComIDWidgets14APIEnvironmentO",
+        "mangledName": "$s13EComIDWidgets14APIEnvironmentO",
+        "moduleName": "EComIDWidgets",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "EComIDWidgets",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "EComIDWidgets",
         "declAttributes": [
@@ -782,26 +1397,6 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "EComIDWidgets",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "EComIDWidgets",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -1685,6 +2280,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "EComIDWidgets",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2241,6 +2846,27 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Translations\/PossesiveHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1419,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/KeychainUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 16,
+      "value": "\"api.ecomid.com\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/API\/SessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 27,
+      "value": "\"https:\/\/api.ecomid.com\/v0\""
+    },
+    {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Models\/SwiftUIStyleConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 480,
@@ -2255,28 +2881,28 @@
       "value": "\"UIInfoWidget\""
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/InfoWidgetViewModel.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Info\/InfoWidgetViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 433,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/InfoWidgetViewModel.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Info\/InfoWidgetViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 497,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/InfoWidgetViewModel.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Info\/InfoWidgetViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 670,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/InfoWidgetViewModel.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Info\/InfoWidgetViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 731,
       "length": 2,
@@ -2430,7 +3056,7 @@
       "value": "\"com.ecomid.EcomIDIntegrations\""
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/InfoWidgetView.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Info\/InfoWidgetView.swift",
       "kind": "BooleanLiteral",
       "offset": 245,
       "length": 5,
@@ -2479,149 +3105,219 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Translations\/BaseScoreTranslations.swift",
+      "kind": "Dictionary",
+      "offset": 214,
+      "length": 2696,
+      "value": "[(\"en\", \"{\n    \"returns\": {\n        \"title\": \"Your return fee\",\n        \"free\": \"Free\",\n        \"order\": {\n            \"title\": \"Order return fee\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Discounted\",\n        \"original\": \"Original\",\n        \"hint\": \"Open to learn more\"\n    }\n}\"), (\"sv\", \"{\n    \"returns\": {\n        \"title\": \"Din returavgift\",\n        \"free\": \"Gratis\",\n        \"order\": {\n            \"title\": \"Returavgift för beställning\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Rabatterat\",\n        \"original\": \"Original\",\n        \"hint\": \"Öppna för att lära dig mer\"\n    }\n}\"), (\"fi\", \"{\n    \"returns\": {\n        \"title\": \"Palautusmaksusi\",\n        \"free\": \"Ilmainen\",\n        \"order\": {\n            \"title\": \"Tilauksen palautusmaksu\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Alennettu\",\n        \"original\": \"Alkuperäinen\",\n        \"hint\": \"Avaa saadaksesi lisätietoja\"\n    }\n}\"), (\"de\", \"{\n    \"returns\": {\n        \"title\": \"Deine Rücksendekosten\",\n        \"free\": \"Kostenlos\",\n        \"order\": {\n            \"title\": \"Rücksendegebühr\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Reduziert\",\n        \"original\": \"Original\",\n        \"hint\": \"Öffnen, um mehr zu erfahren\"\n    }\n}\"), (\"it\", \"{\n    \"returns\": {\n        \"title\": \"Il tuo costo di reso\",\n        \"free\": \"Gratuito\",\n        \"order\": {\n            \"title\": \"Tassa di reso dell'ordine\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Scontato\",\n        \"original\": \"Originale\",\n        \"hint\": \"Apri per saperne di più\"\n    }\n}\"), (\"fr\", \"{\n    \"returns\": {\n        \"title\": \"Tes frais de retour\",\n        \"free\": \"Gratuit\",\n        \"order\": {\n            \"title\": \"Frais de retour de commande\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"En promo\",\n        \"original\": \"Original\",\n        \"hint\": \"Ouvrir pour en savoir plus\"\n    }\n}\"), (\"no\", \"{\n    \"returns\": {\n        \"title\": \"Ditt returgebyr\",\n        \"free\": \"Kostnadsfri\",\n        \"order\": {\n            \"title\": \"Returandel for denne bestillingen\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Rabattert\",\n        \"original\": \"Opprinnelig\",\n        \"hint\": \"Åpne for å finne ut mer\"\n    }\n}\")]"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Translations\/BaseScoreTranslations.swift",
+      "kind": "Dictionary",
+      "offset": 2957,
+      "length": 6399,
+      "value": "[(\"en\", \"{\n    \"returns\": {\n        \"title\": \"Return fee details\",\n        \"order\": {\n            \"fee\": \"Order return fee\"\n        },\n        \"in_store\": \"In-store return\",\n        \"next_return\": \"Your next return\",\n        \"free\": \"Free\",\n        \"always_free\": \"Always free\",\n        \"consecutive_returns\": \"Every return after\",\n        \"fee\": \"Your return fee\",\n        \"rate\": \"Your return rate\",\n        \"disclaimer\": \"Return fee is based on your return rate. A lower return rate equals a lower fee. For more info, please visit the returns section in our Customer Service pages\"\n    },\n    \"labels\": {\n        \"discounted\": \"Discounted\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"eComID logo\"\n    },\n    \"actions\": {\n        \"close\": \"Close\"\n    }\n}\"), (\"sv\", \"{\n    \"returns\": {\n        \"title\": \"Returavgiftsdetaljer\",\n        \"order\": {\n            \"fee\": \"Returavgift för beställning\"\n        },\n        \"in_store\": \"Retur i butik\",\n        \"next_return\": \"Din nästa retur\",\n        \"free\": \"Gratis\",\n        \"always_free\": \"Alltid gratis\",\n        \"consecutive_returns\": \"Varje retur därefter\",\n        \"fee\": \"Returavgift\",\n        \"rate\": \"Returgrad\",\n        \"disclaimer\": \"För mer information, vänligen besök retursektionen på våra kundservicesidor.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Rabatterat\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"eComID logotyp\"\n    },\n    \"actions\": {\n        \"close\": \"Stäng\"\n    }\n}\"), (\"fi\", \"{\n    \"returns\": {\n        \"title\": \"Palautusmaksun tiedot\",\n        \"order\": {\n            \"fee\": \"Tilauksen palautusmaksu\"\n        },\n        \"in_store\": \"Myymäläpalautus\",\n        \"next_return\": \"Seuraava palautuksesi\",\n        \"free\": \"Ilmainen\",\n        \"always_free\": \"Aina ilmainen\",\n        \"consecutive_returns\": \"Kaikki sitä seuraavat palautukset\",\n        \"fee\": \"Palautusmaksu\",\n        \"rate\": \"Palautusosuus\",\n        \"disclaimer\": \"Lisätietoja on asiakaspalvelumme palautusosiossa.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Alennettu\",\n        \"original\": \"Alkuperäinen\",\n        \"ecomid_logo\": \"eComID-logo\"\n    },\n    \"actions\": {\n        \"close\": \"Sulje\"\n    }\n}\"), (\"de\", \"{\n    \"returns\": {\n        \"title\": \"Deine Rücksendekosten\",\n        \"order\": {\n            \"fee\": \"Rücksendequote für diese Bestellung\"\n        },\n        \"in_store\": \"Rückgabe im Store\",\n        \"next_return\": \"Erste Rücksendung\",\n        \"free\": \"Kostenlos\",\n        \"always_free\": \"Immer kostenlos\",\n        \"consecutive_returns\": \"Jede weitere Rücksendung\",\n        \"fee\": \"Deine Rücksendekosten\",\n        \"rate\": \"Deine Retourenquote\",\n        \"disclaimer\": \"Die Rücksendegebühr basiert auf Ihrer Rücksendungsquote. Eine niedrigere Rücksendequote bedeutet eine geringere Gebühr. Für weitere Informationen besuchen Sie bitte den Abschnitt Rücksendungen auf unseren Kundendienst-Seiten.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Reduziert\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"eComID‑Logo\"\n    },\n    \"actions\": {\n        \"close\": \"Schließen\"\n    }\n}\"), (\"it\", \"{\n    \"returns\": {\n        \"title\": \"Il tuo costo di reso\",\n        \"order\": {\n            \"fee\": \"Tasso di reso per questo ordine\"\n        },\n        \"in_store\": \"Reso in negozio\",\n        \"next_return\": \"Primo reso\",\n        \"free\": \"Gratuito\",\n        \"always_free\": \"Sempre gratuito\",\n        \"consecutive_returns\": \"Ogni altro reso\",\n        \"fee\": \"La tua commissione di reso\",\n        \"rate\": \"Il tuo tasso di rendimento\",\n        \"disclaimer\": \"La commissione di reso è basata sul tuo tasso di reso. Un tasso di reso più basso equivale a una commissione inferiore. Per maggiori informazioni, visita la sezione resi nelle nostre pagine del Servizio Clienti.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Scontato\",\n        \"original\": \"Originale\",\n        \"ecomid_logo\": \"Logo eComID\"\n    },\n    \"actions\": {\n        \"close\": \"Chiudi\"\n    }\n}\"), (\"fr\", \"{\n    \"returns\": {\n        \"title\": \"Tes frais de retour\",\n        \"order\": {\n            \"fee\": \"Taux de retour pour cette commande\"\n        },\n        \"in_store\": \"Retour en magasin\",\n        \"next_return\": \"Premier retour\",\n        \"free\": \"Gratuit\",\n        \"always_free\": \"Toujours gratuit\",\n        \"consecutive_returns\": \"Tout retour supplémentaire\",\n        \"fee\": \"Tes frais de retour\",\n        \"rate\": \"Ton taux de retour\",\n        \"disclaimer\": \"Les frais de retour sont basés sur votre taux de retour. Un taux de retour plus bas équivaut à des frais plus bas. Pour plus d'informations, veuillez visiter la section des retours dans nos pages de service client.\"\n    },\n    \"labels\": {\n        \"discounted\": \"En promo\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"Logo eComID\"\n    },\n    \"actions\": {\n        \"close\": \"Fermé\"\n    }\n}\"), (\"no\", \"{\n    \"returns\": {\n        \"title\": \"Informasjon om returgebyret\",\n        \"order\": {\n            \"fee\": \"Returandel for denne bestillingen\"\n        },\n        \"in_store\": \"Retur i butikk\",\n        \"next_return\": \"Din neste retur\",\n        \"free\": \"Kostnadsfri\",\n        \"always_free\": \"Alltid kostnadsfri\",\n        \"consecutive_returns\": \"Hver retur etter det\",\n        \"fee\": \"Ditt returgebyr\",\n        \"rate\": \"Returandelen din\",\n        \"disclaimer\": \"Returgebyret beregnes ut fra returandelen din. Jo lavere returandel, desto lavere avgift. For mer informasjon, se delen om returer på kundeservicesidene våre.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Rabattert\",\n        \"original\": \"Opprinnelig\",\n        \"ecomid_logo\": \"eComID-logo\"\n    },\n    \"actions\": {\n        \"close\": \"Lukk\"\n    }\n}\")]"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Translations\/Models\/ScoreTranslations.swift",
       "kind": "StringLiteral",
-      "offset": 240,
+      "offset": 1390,
+      "length": 10,
+      "value": "\"in_store\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Translations\/Models\/ScoreTranslations.swift",
+      "kind": "StringLiteral",
+      "offset": 1431,
+      "length": 13,
+      "value": "\"next_return\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Translations\/Models\/ScoreTranslations.swift",
+      "kind": "StringLiteral",
+      "offset": 1497,
+      "length": 13,
+      "value": "\"always_free\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Translations\/Models\/ScoreTranslations.swift",
+      "kind": "StringLiteral",
+      "offset": 1549,
+      "length": 21,
+      "value": "\"consecutive_returns\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Translations\/Models\/ScoreTranslations.swift",
+      "kind": "StringLiteral",
+      "offset": 1908,
+      "length": 13,
+      "value": "\"ecomid_logo\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 35,
+      "value": "\"SCORE_STORE_COMMUNICATION_MARKETS\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 289,
+      "offset": 466,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 331,
+      "offset": 508,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 568,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 632,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 811,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 872,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1054,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1118,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1301,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1365,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2896,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3107,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 310,
+      "offset": 600,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3340,
+      "offset": 801,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 865,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1044,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1105,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1287,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1351,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1534,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1598,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3263,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3474,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 305,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3420,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetView.swift",
       "kind": "StringLiteral",
-      "offset": 3530,
+      "offset": 3662,
       "length": 5,
-      "value": "\"chf\""
+      "value": "\"nok\""
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetView.swift",
       "kind": "StringLiteral",
-      "offset": 3583,
-      "length": 2,
-      "value": "\"\""
+      "offset": 3715,
+      "length": 34,
+      "value": "\"8e5f1fa7ac55dcbb3d5015d1c2e90685\""
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetView.swift",
+      "kind": "StringLiteral",
+      "offset": 3795,
+      "length": 4,
+      "value": "\"no\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetView.swift",
       "kind": "FloatLiteral",
-      "offset": 3639,
+      "offset": 3853,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3695,
+      "offset": 3909,
       "length": 3,
       "value": "395"
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3757,
+      "offset": 3971,
       "length": 3,
       "value": "395"
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/ScoreWidgetView.swift",
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/SwiftUI\/Widgets\/Score\/ScoreWidgetView.swift",
       "kind": "StringLiteral",
-      "offset": 3808,
+      "offset": 4022,
       "length": 2,
       "value": "\"\""
     },
@@ -2652,48 +3348,6 @@
       "offset": 876,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Padding.swift",
-      "kind": "IntegerLiteral",
-      "offset": 195,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Padding.swift",
-      "kind": "IntegerLiteral",
-      "offset": 225,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Padding.swift",
-      "kind": "IntegerLiteral",
-      "offset": 256,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Padding.swift",
-      "kind": "IntegerLiteral",
-      "offset": 288,
-      "length": 2,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/BaseTranslations.swift",
-      "kind": "Dictionary",
-      "offset": 150,
-      "length": 2300,
-      "value": "[(\"en\", \"{\n    \"returns\": {\n        \"title\": \"Your return fee\",\n        \"free\": \"Free\",\n        \"order\": {\n            \"title\": \"Order return fee\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Discounted\",\n        \"original\": \"Original\",\n        \"hint\": \"Open to learn more\"\n    }\n}\"), (\"sv\", \"{\n    \"returns\": {\n        \"title\": \"Din returavgift\",\n        \"free\": \"Gratis\",\n        \"order\": {\n            \"title\": \"Returavgift för beställning\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Rabatterat\",\n        \"original\": \"Original\",\n        \"hint\": \"Öppna för att lära dig mer\"\n    }\n}\"), (\"fi\", \"{\n    \"returns\": {\n        \"title\": \"Palautusmaksusi\",\n        \"free\": \"Ilmainen\",\n        \"order\": {\n            \"title\": \"Tilauksen palautusmaksu\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Alennettu\",\n        \"original\": \"Alkuperäinen\",\n        \"hint\": \"Avaa saadaksesi lisätietoja\"\n    }\n}\"), (\"de\", \"{\n    \"returns\": {\n        \"title\": \"Deine Rücksendekosten\",\n        \"free\": \"Kostenlos\",\n        \"order\": {\n            \"title\": \"Rücksendegebühr\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Reduziert\",\n        \"original\": \"Original\",\n        \"hint\": \"Öffnen, um mehr zu erfahren\"\n    }\n}\"), (\"it\", \"{\n    \"returns\": {\n        \"title\": \"Il tuo costo di reso\",\n        \"free\": \"Gratuito\",\n        \"order\": {\n            \"title\": \"Tassa di reso dell'ordine\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"Scontato\",\n        \"original\": \"Originale\",\n        \"hint\": \"Apri per saperne di più\"\n    }\n}\"), (\"fr\", \"{\n    \"returns\": {\n        \"title\": \"Tes frais de retour\",\n        \"free\": \"Gratuit\",\n        \"order\": {\n            \"title\": \"Frais de retour de commande\"\n        }\n    },\n    \"labels\": {\n        \"discounted\": \"En promo\",\n        \"original\": \"Original\",\n        \"hint\": \"Ouvrir pour en savoir plus\"\n    }\n}\")]"
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/BaseTranslations.swift",
-      "kind": "Dictionary",
-      "offset": 2497,
-      "length": 5476,
-      "value": "[(\"en\", \"{\n    \"returns\": {\n        \"title\": \"Return fee details\",\n        \"order\": {\n            \"fee\": \"Order return fee\"\n        },\n        \"in_store\": \"In-store return\",\n        \"next_return\": \"Your next return\",\n        \"free\": \"Free\",\n        \"always_free\": \"Always free\",\n        \"consecutive_returns\": \"Every return after\",\n        \"fee\": \"Your return fee\",\n        \"rate\": \"Your return rate\",\n        \"disclaimer\": \"Return fee is based on your return rate. A lower return rate equals a lower fee. For more info, please visit the returns section in our Customer Service pages\"\n    },\n    \"labels\": {\n        \"discounted\": \"Discounted\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"eComID logo\"\n    },\n    \"actions\": {\n        \"close\": \"Close\"\n    }\n}\"), (\"sv\", \"{\n    \"returns\": {\n        \"title\": \"Returavgiftsdetaljer\",\n        \"order\": {\n            \"fee\": \"Returavgift för beställning\"\n        },\n        \"in_store\": \"Retur i butik\",\n        \"next_return\": \"Din nästa retur\",\n        \"free\": \"Gratis\",\n        \"always_free\": \"Alltid gratis\",\n        \"consecutive_returns\": \"Varje retur därefter\",\n        \"fee\": \"Returavgift\",\n        \"rate\": \"Returgrad\",\n        \"disclaimer\": \"För mer information, vänligen besök retursektionen på våra kundservicesidor.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Rabatterat\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"eComID logotyp\"\n    },\n    \"actions\": {\n        \"close\": \"Stäng\"\n    }\n}\"), (\"fi\", \"{\n    \"returns\": {\n        \"title\": \"Palautusmaksun tiedot\",\n        \"order\": {\n            \"fee\": \"Tilauksen palautusmaksu\"\n        },\n        \"in_store\": \"Myymäläpalautus\",\n        \"next_return\": \"Seuraava palautuksesi\",\n        \"free\": \"Ilmainen\",\n        \"always_free\": \"Aina ilmainen\",\n        \"consecutive_returns\": \"Kaikki sitä seuraavat palautukset\",\n        \"fee\": \"Palautusmaksu\",\n        \"rate\": \"Palautusosuus\",\n        \"disclaimer\": \"Lisätietoja on asiakaspalvelumme palautusosiossa.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Alennettu\",\n        \"original\": \"Alkuperäinen\",\n        \"ecomid_logo\": \"eComID-logo\"\n    },\n    \"actions\": {\n        \"close\": \"Sulje\"\n    }\n}\"), (\"de\", \"{\n    \"returns\": {\n        \"title\": \"Deine Rücksendekosten\",\n        \"order\": {\n            \"fee\": \"Rücksendequote für diese Bestellung\"\n        },\n        \"in_store\": \"Rückgabe im Store\",\n        \"next_return\": \"Erste Rücksendung\",\n        \"free\": \"Kostenlos\",\n        \"always_free\": \"Immer kostenlos\",\n        \"consecutive_returns\": \"Jede weitere Rücksendung\",\n        \"fee\": \"Deine Rücksendekosten\",\n        \"rate\": \"Deine Retourenquote\",\n        \"disclaimer\": \"Die Rücksendegebühr basiert auf Ihrer Rücksendungsquote. Eine niedrigere Rücksendequote bedeutet eine geringere Gebühr. Für weitere Informationen besuchen Sie bitte den Abschnitt Rücksendungen auf unseren Kundendienst-Seiten.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Reduziert\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"eComID‑Logo\"\n    },\n    \"actions\": {\n        \"close\": \"Schließen\"\n    }\n}\"), (\"it\", \"{\n    \"returns\": {\n        \"title\": \"Il tuo costo di reso\",\n        \"order\": {\n            \"fee\": \"Tasso di reso per questo ordine\"\n        },\n        \"in_store\": \"Reso in negozio\",\n        \"next_return\": \"Primo reso\",\n        \"free\": \"Gratuito\",\n        \"always_free\": \"Sempre gratuito\",\n        \"consecutive_returns\": \"Ogni altro reso\",\n        \"fee\": \"La tua commissione di reso\",\n        \"rate\": \"Il tuo tasso di rendimento\",\n        \"disclaimer\": \"La commissione di reso è basata sul tuo tasso di reso. Un tasso di reso più basso equivale a una commissione inferiore. Per maggiori informazioni, visita la sezione resi nelle nostre pagine del Servizio Clienti.\"\n    },\n    \"labels\": {\n        \"discounted\": \"Scontato\",\n        \"original\": \"Originale\",\n        \"ecomid_logo\": \"Logo eComID\"\n    },\n    \"actions\": {\n        \"close\": \"Chiudi\"\n    }\n}\"), (\"fr\", \"{\n    \"returns\": {\n        \"title\": \"Tes frais de retour\",\n        \"order\": {\n            \"fee\": \"Taux de retour pour cette commande\"\n        },\n        \"in_store\": \"Retour en magasin\",\n        \"next_return\": \"Premier retour\",\n        \"free\": \"Gratuit\",\n        \"always_free\": \"Toujours gratuit\",\n        \"consecutive_returns\": \"Tout retour supplémentaire\",\n        \"fee\": \"Tes frais de retour\",\n        \"rate\": \"Ton taux de retour\",\n        \"disclaimer\": \"Les frais de retour sont basés sur votre taux de retour. Un taux de retour plus bas équivaut à des frais plus bas. Pour plus d'informations, veuillez visiter la section des retours dans nos pages de service client.\"\n    },\n    \"labels\": {\n        \"discounted\": \"En promo\",\n        \"original\": \"Original\",\n        \"ecomid_logo\": \"Logo eComID\"\n    },\n    \"actions\": {\n        \"close\": \"Fermé\"\n    }\n}\")]"
     },
     {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Localization.swift",
@@ -2815,41 +3469,6 @@
       "value": "\"overlay-recommended-size\""
     },
     {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/LocalizationRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1394,
-      "length": 10,
-      "value": "\"in_store\""
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/LocalizationRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1435,
-      "length": 13,
-      "value": "\"next_return\""
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/LocalizationRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1501,
-      "length": 13,
-      "value": "\"always_free\""
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/LocalizationRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1553,
-      "length": 21,
-      "value": "\"consecutive_returns\""
-    },
-    {
-      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Repositories\/LocalizationRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1912,
-      "length": 13,
-      "value": "\"ecomid_logo\""
-    },
-    {
       "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Resources\/Fonts.swift",
       "kind": "StringLiteral",
       "offset": 1063,
@@ -2869,6 +3488,34 @@
       "offset": 1528,
       "length": 14,
       "value": "\"Saans-Medium\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Padding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 195,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Padding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 225,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Padding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/patrick\/Repositories\/ios-widgets\/EComIDIntegrations\/Utils\/Padding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 288,
+      "length": 2,
+      "value": "21"
     },
     {
       "filePath": "\/Users\/patrick\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-deekhfmzygssvpagbfgexturikpo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphonesimulator\/EComIDWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
@@ -2929,21 +3576,28 @@
     {
       "filePath": "\/Users\/patrick\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-deekhfmzygssvpagbfgexturikpo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphonesimulator\/EComIDWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1883,
-      "length": 13,
-      "value": "\"demoProduct\""
+      "offset": 1879,
+      "length": 11,
+      "value": "\"intersect\""
     },
     {
       "filePath": "\/Users\/patrick\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-deekhfmzygssvpagbfgexturikpo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphonesimulator\/EComIDWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2014,
+      "offset": 2008,
       "length": 6,
       "value": "\"logo\""
     },
     {
       "filePath": "\/Users\/patrick\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-deekhfmzygssvpagbfgexturikpo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphonesimulator\/EComIDWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2148,
+      "offset": 2138,
+      "length": 9,
+      "value": "\"poligon\""
+    },
+    {
+      "filePath": "\/Users\/patrick\/Library\/Developer\/Xcode\/DerivedData\/EComIDIntegrations-deekhfmzygssvpagbfgexturikpo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EComIDWidgets\/IntermediateBuildFilesPath\/EComIDIntegrations.build\/Release-iphonesimulator\/EComIDWidgets.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2275,
       "length": 11,
       "value": "\"poweredBy\""
     }
