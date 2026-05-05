@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.3 effective-5.10 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
 // swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name EComIDWidgets
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
 import Combine
 import DeveloperToolsSupport
 import Foundation
@@ -12,6 +12,18 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_Concurrency.MainActor @preconcurrency public struct InfoWidgetUIKit : SwiftUI.UIViewRepresentable {
+  public typealias UIViewType = EComIDWidgets.UIInfoWidget
+  @_Concurrency.MainActor @preconcurrency public init(viewModel: EComIDWidgets.UIInfoWidgetViewModel)
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: EComIDWidgets.InfoWidgetUIKit.Context) -> EComIDWidgets.UIInfoWidget
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: EComIDWidgets.UIInfoWidget, context: EComIDWidgets.InfoWidgetUIKit.Context)
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Swift.Void
+}
+@_hasMissingDesignatedInitializers public class SessionManager {
+  public static let shared: EComIDWidgets.SessionManager
+  @objc deinit
+}
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class UIInfoWidget : UIKit.UIView {
   @objc deinit
 }
@@ -22,6 +34,15 @@ final public class UIInfoWidgetViewModel : Combine.ObservableObject {
   public init(name: Swift.String? = nil, locale: Swift.String, styleConfiguration: EComIDWidgets.UIKitStyleConfiguration)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
+}
+public enum APIEnvironment {
+  case production
+  case staging
+  public static func == (a: EComIDWidgets.APIEnvironment, b: EComIDWidgets.APIEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 
 public struct InfoWidgetStyle {
@@ -77,5 +98,8 @@ extension UIKit.UIFont {
     public static func fixed(_ style: EComIDWidgets.EComIDFont, size: CoreFoundation.CGFloat) -> UIKit.UIFont
   }
 }
+extension EComIDWidgets.InfoWidgetUIKit : Swift.Sendable {}
+extension EComIDWidgets.APIEnvironment : Swift.Equatable {}
+extension EComIDWidgets.APIEnvironment : Swift.Hashable {}
 extension EComIDWidgets.FontError : Swift.Equatable {}
 extension EComIDWidgets.FontError : Swift.Hashable {}
