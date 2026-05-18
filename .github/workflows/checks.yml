@@ -1,0 +1,61 @@
+name: Checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-manifest:
+    name: Validate Package.swift
+    runs-on: namespace-profile-mac-small-26
+    steps:
+      - uses: actions/checkout@v4
+      - run: swift package dump-package
+
+  verify-checksums:
+    name: Verify xcframework checksums
+    runs-on: namespace-profile-mac-small-26
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compare local zip checksums against Package.swift
+        run: |
+          set -euo pipefail
+          fail=0
+          shopt -s nullglob
+          zips=(Sources/*.xcframework.zip)
+          if [ ${#zips[@]} -eq 0 ]; then
+            echo "::error::No xcframework zips found under Sources/"
+            exit 1
+          fi
+          for zip in "${zips[@]}"; do
+            name=$(basename "$zip" .xcframework.zip)
+            actual=$(swift package compute-checksum "$zip")
+            declared=$(awk -v target="\"$name\"" '
+              /binaryTarget/ { found=0 }
+              $0 ~ "name:[[:space:]]*"target { found=1 }
+              found && /checksum:/ {
+                match($0, /"[0-9a-f]+"/)
+                print substr($0, RSTART+1, RLENGTH-2)
+                exit
+              }
+            ' Package.swift)
+            if [ -z "$declared" ]; then
+              echo "::error::No declared checksum found for $name in Package.swift"
+              fail=1
+              continue
+            fi
+            if [ "$actual" != "$declared" ]; then
+              echo "::error::Checksum mismatch for $name"
+              echo "  declared: $declared"
+              echo "  actual:   $actual"
+              fail=1
+            else
+              echo "OK $name ($actual)"
+            fi
+          done
+          exit $fail
