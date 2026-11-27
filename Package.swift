@@ -17,13 +17,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "EComIDNudgeScore",
-            url: "https://github.com/ecomid/public-apps-integrations/raw/3.0.4/Sources/EComIDNudgeScore.xcframework.zip",
-            checksum: "14ef5563f13733688342a46d8c6a35e5a5dc5be14d2b427d321230a0e7b1fbc0"
+            url: "https://github.com/ecomid/public-apps-integrations/raw/3.0.5/Sources/EComIDNudgeScore.xcframework.zip",
+            checksum: "d4ab0b13bb640612b8e9a2ec954d8a1a54daf565ddf467a77af2b91287b0200e"
         ),
         .binaryTarget(
             name: "EComIDSizeFinder",
-            url: "https://github.com/ecomid/public-apps-integrations/raw/3.0.4/Sources/EComIDSizeFinder.xcframework.zip",
-            checksum: "adec2fff4e756bce2c57ec4bfc2b7cf488fc91b5d10d0980959c2022a2381f51"
+            url: "https://github.com/ecomid/public-apps-integrations/raw/3.0.5/Sources/EComIDSizeFinder.xcframework.zip",
+            checksum: "161113e00a46c1149d808eba9b2dd0249a1214dc7faa1909f4d18fd29a7051b3"
         )
     ]
 )
